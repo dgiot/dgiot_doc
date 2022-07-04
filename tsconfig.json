@@ -1,0 +1,14 @@
+{
+   "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "allowJs": true
+  },
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "downlevelIteration": true,
+    "plugins": [{ "name": "typescript-plugin-css-modules" }]
+  },
+  "include": ["src/**/*"]
+}

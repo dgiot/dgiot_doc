@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Connectors": {
+    "message": "Connectors",
+    "description": "The label for category Connectors in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.MongoDB Connector": {
+    "message": "MongoDB Connector",
+    "description": "The label for category MongoDB Connector in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Binlog Connector": {
+    "message": "MongoDB Connector",
+    "description": "The label for category Binlog Connector in sidebar tutorialSidebar"
+  }
+}
