@@ -1,0 +1,28 @@
+{
+  "unversionedId": "practical_tutorial/docs/7",
+  "id": "practical_tutorial/docs/7",
+  "title": "水泵性能曲线测量案例",
+  "description": "前言",
+  "source": "@site/docs/practical_tutorial/docs/7.md",
+  "sourceDirName": "practical_tutorial/docs",
+  "slug": "/practical_tutorial/docs/7",
+  "permalink": "/en/docs/practical_tutorial/docs/7",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/practical_tutorial/docs/7.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "title": "水泵性能曲线测量案例",
+    "sidebar_position": 8
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Mqtt设备接入教程",
+    "permalink": "/en/docs/practical_tutorial/docs/6"
+  },
+  "next": {
+    "title": "OPC-DA设备接入教程",
+    "permalink": "/en/docs/practical_tutorial/docs/8"
+  }
+}

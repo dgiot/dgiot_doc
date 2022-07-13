@@ -1,0 +1,24 @@
+{
+  "unversionedId": "user_manual/docs/equipment_operational/1",
+  "id": "user_manual/docs/equipment_operational/1",
+  "title": "太阳能管理平台",
+  "description": "太阳能控制器交互图",
+  "source": "@site/docs/user_manual/docs/equipment_operational/1.md",
+  "sourceDirName": "user_manual/docs/equipment_operational",
+  "slug": "/user_manual/docs/equipment_operational/1",
+  "permalink": "/docs/user_manual/docs/equipment_operational/1",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/user_manual/docs/equipment_operational/1.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "太阳能管理平台",
+    "sidebar_position": 1
+  },
+  "sidebar": "docs",
+  "next": {
+    "title": "太阳能管理平台",
+    "permalink": "/docs/user_manual/docs/equipment_operational/equipment_leasing"
+  }
+}

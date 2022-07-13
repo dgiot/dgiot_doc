@@ -1,0 +1,28 @@
+{
+  "unversionedId": "practical_tutorial/docs/3",
+  "id": "practical_tutorial/docs/3",
+  "title": "电力集抄教程",
+  "description": "本教程首先通过全链路虚拟环境讲述如何用DG-IoT开源工业物联网平台完成电力集抄项目,在掌握基础概念和业务流程之后，通过真实的电表和DTU来进行实战演练。",
+  "source": "@site/docs/practical_tutorial/docs/3.md",
+  "sourceDirName": "practical_tutorial/docs",
+  "slug": "/practical_tutorial/docs/3",
+  "permalink": "/en/docs/practical_tutorial/docs/3",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/practical_tutorial/docs/3.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "电力集抄教程",
+    "sidebar_position": 4
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "PT100传感器接入教程",
+    "permalink": "/en/docs/practical_tutorial/docs/2"
+  },
+  "next": {
+    "title": "DDZY1296电表接入教程",
+    "permalink": "/en/docs/practical_tutorial/docs/4"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "product_doc/index",
+  "id": "product_doc/index",
+  "title": "简介",
+  "description": "DGIOT物联网平台通过持续整合业界领先的CMP、DMP、AEP、BAP的相关技术成果和架构思想，为工业物联网用户提供快速的一站式",
+  "source": "@site/docs/product_doc/index.md",
+  "sourceDirName": "product_doc",
+  "slug": "/product_doc/",
+  "permalink": "/en/docs/product_doc/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/product_doc/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "简介",
+    "sidebar_position": 1
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "千万级设备租赁",
+    "permalink": "/en/docs/user_manual/docs/pressure_test/"
+  },
+  "next": {
+    "title": "产品功能",
+    "permalink": "/en/docs/product_doc/docs/introduction/product_features"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "developer_guid/docs/back_end/1",
+  "id": "developer_guid/docs/back_end/1",
+  "title": "太阳能管理平台",
+  "description": "秉持精简思想，直指用户需求本质，让用户在半小时内能获得自己想要的效果",
+  "source": "@site/docs/developer_guid/docs/back_end/1.md",
+  "sourceDirName": "developer_guid/docs/back_end",
+  "slug": "/developer_guid/docs/back_end/1",
+  "permalink": "/en/docs/developer_guid/docs/back_end/1",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/developer_guid/docs/back_end/1.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "太阳能管理平台",
+    "sidebar_position": 2
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "简介",
+    "permalink": "/en/docs/developer_guid/"
+  },
+  "next": {
+    "title": "太阳能管理平台1",
+    "permalink": "/en/docs/developer_guid/docs/back_end/architecture"
+  }
+}

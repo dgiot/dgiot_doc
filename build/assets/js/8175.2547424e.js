@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdgiot_website=self.webpackChunkdgiot_website||[]).push([[8175],{8175:(e,s,t)=>{t.r(s)}}]);

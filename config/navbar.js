@@ -11,7 +11,7 @@ module.exports = {
             position: 'right'
         },
         {
-            href: 'http://www.dgiotcloud.cn',
+            href: 'https://prod.dgiotcloud.cn/#/login',
             label: 'DgiotCloud',
             position: 'right'
         },
@@ -27,7 +27,7 @@ module.exports = {
             label: 'Docs',
         },
         {
-            href: 'http://www.dgiotcloud.cn/?page_id=162',
+            href: 'https://www.dgiotcloud.cn/?cat=19',
             label: 'Blog',
             position: 'right'
         },
@@ -47,24 +47,24 @@ module.exports = {
                 },
                 {
                     label: 'SmartVenue',
-                    to: 'http://www.dgiotcloud.cn/?cat=4',
+                    to: 'http://www.dgiotcloud.cn/?cat=5',
                 },
                 {
                     label: 'DigitalFactory',
-                    to: 'http://www.dgiotcloud.cn/?cat=4',
+                    to: 'http://www.dgiotcloud.cn/?cat=6',
                 },
                 {
                     label: 'CloudDetection',
-                    to: 'http://www.dgiotcloud.cn/?cat=4',
+                    to: 'http://www.dgiotcloud.cn/?cat=22',
                 },
                 {
                     label: 'CloudTest',
-                    to: 'http://www.dgiotcloud.cn/?cat=4',
+                    to: 'http://www.dgiotcloud.cn/?cat=23',
                 },
             ],
         },
         {
-            href: 'http://www.dgiotcloud.cn/?cat=1',
+            href: 'http://www.dgiotcloud.cn/?page_id=12',
             label: 'Community',
             position: 'right'
         },

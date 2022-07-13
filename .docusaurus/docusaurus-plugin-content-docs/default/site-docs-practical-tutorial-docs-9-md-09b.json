@@ -1,0 +1,28 @@
+{
+  "unversionedId": "practical_tutorial/docs/9",
+  "id": "practical_tutorial/docs/9",
+  "title": "摄像头接入",
+  "description": "1.打开cmd命令窗口，输入ping 192.168.1.1 --- 100，观察是否有回复,当ping到一定位置，输入ARP -A，观察ip地址与mac地址。",
+  "source": "@site/docs/practical_tutorial/docs/9.md",
+  "sourceDirName": "practical_tutorial/docs",
+  "slug": "/practical_tutorial/docs/9",
+  "permalink": "/en/docs/practical_tutorial/docs/9",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/practical_tutorial/docs/9.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "title": "摄像头接入",
+    "sidebar_position": 10
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "OPC-DA设备接入教程",
+    "permalink": "/en/docs/practical_tutorial/docs/8"
+  },
+  "next": {
+    "title": "测试",
+    "permalink": "/en/docs/practical_tutorial/docs/10"
+  }
+}

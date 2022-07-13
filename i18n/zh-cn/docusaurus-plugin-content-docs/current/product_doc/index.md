@@ -1,103 +1,53 @@
 ---
-title: 简介
+title: 快速开始
 sidebar_position: 1
 ---
-# 233
-
-[![GitHub Release](https://img.shields.io/github/release/dgiot/dgiot?color=brightgreen)](https://github.com/dgiot/dgiot/releases)
-[![Docker Pulls](https://img.shields.io/docker/pulls/dgiot/dgiot)](https://hub.docker.com/r/dgiot/dgiot)
-[![Community](https://img.shields.io/badge/Community-DGIOT-yellow)](https://tech.iotn2n.com)
-[![QQ群346566935](https://img.shields.io/badge/QQ群-346566935-brightgreen)](https://jq.qq.com/?_wv=1027&k=LipWZvDe)
-
-
-[github](https://github.com/dgiot?from=git)|[gitee](https://www.iotn2n.com?from=git)|[官网](https://www.iotn2n.com?from=git)|[博客](https://tech.iotn2n.com?from=git)|[体验](https://prod.iotn2n.com?from=git)|[微信群](#jump)
-## DG-IoT简介
-DG-IoT是国内首款轻量级开源工业物联网平台，我们致力于提供五类物联网解决方案：
-+ **国企/研究院**：平台代码开源，无版权产权困扰，国产无“卡脖”之忧
-+ **系统集成商**：通用设备海量接入、定制设备二次开发、30分钟一键式私有化快速部署，低成本（降90%成本）
-+ **工业设备制造商**：海量设备上线运维，不受公有云限制，低成本，短周期自建平台，私有化部署，数据安全
-+ **开源平台开发者**：一键式开发环境，集成和兼容各种最优开源工具，快速承接物联网项目
-+ **垂直领域物联网平台**：快速部署私有化平台，千万级承载，运营级底座，全开放扩展
-
-## 核心特色
-+ **完全开源**：前后端完全开源，无收费商业版
-+ **快速部署**：30分钟私有化[一键式部署](https://gitee.com/dgiiot/dgiot/wikis/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C/%E4%BA%A7%E5%93%81%E7%AE%80%E4%BB%8B/%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2)，快速拥有自己的物联网平台
-+ **专业可靠**：千万级设备接入与管理，电信级稳定性
-+ **兼容并包**：兼容工业领域多行业的常见协议类型
-+ **全流程低代码**：物模型-规则引擎-数据通道-组态页面全流程可视化低代码开发
-## 案例教程
-|   |   | |
-| ------------ | ------------ | ------------ |
-| 行业分类 |实战教程| 案例简述  |
-| [智慧能源](https://gitee.com/dgiiot/dgiot/wikis/%E8%A1%8C%E4%B8%9A%E6%A1%88%E4%BE%8B/%E8%83%BD%E6%BA%90%E8%A1%8C%E4%B8%9A?sort_id=4971731) | [电能表接入](https://gitee.com/dgiiot/dgiot/wikis/%E5%AE%9E%E6%88%98%E6%8E%A5%E5%85%A5/%E7%94%B5%E8%A1%A8%E6%8E%A5%E5%85%A5/%E6%A6%82%E8%BF%B0)|[千万级国/南网电表采集](https://gitee.com/dgiiot/dgiot/wikis/%E5%8E%8B%E6%B5%8B%E6%8A%A5%E5%91%8A/3000%E4%B8%87%E7%9C%81%E7%BA%A7%E7%94%B5%E8%A1%A8%E9%9B%86%E6%8A%84%E5%8E%8B%E6%B5%8B)，预付费表采集，太阳能设备管控  |
-| [智能工业](https://gitee.com/dgiiot/dgiot/wikis/%E8%A1%8C%E4%B8%9A%E6%A1%88%E4%BE%8B/%E5%B7%A5%E4%B8%9A%E8%AE%BE%E5%A4%87%E8%A1%8C%E4%B8%9A)  | [Mqtt设备接入](https://gitee.com/dgiiot/dgiot/wikis/%E5%AE%9E%E6%88%98%E6%8E%A5%E5%85%A5/MQTT%E8%AE%BE%E5%A4%87%E6%8E%A5%E5%85%A5)| 工地电梯远程管控 |
-| [智慧交通](https://gitee.com/dgiiot/dgiot/wikis/%E8%A1%8C%E4%B8%9A%E6%A1%88%E4%BE%8B/%E4%BA%A4%E9%80%9A%E8%A1%8C%E4%B8%9A)  |[Modbus设备接入](https://gitee.com/dgiiot/dgiot/wikis/%E5%AE%9E%E6%88%98%E6%8E%A5%E5%85%A5/Modbus%E8%AE%BE%E5%A4%87%E6%8E%A5%E5%85%A5?sort_id=5023597)|高速公路隧道设备检测   |
-|[智慧检测](https://gitee.com/dgiiot/dgiot/wikis/%E8%A1%8C%E4%B8%9A%E6%A1%88%E4%BE%8B/%E6%99%BA%E6%85%A7%E6%A3%80%E6%B5%8B)|[OPC设备接入](https://gitee.com/dgiiot/dgiot/wikis/%E5%AE%9E%E6%88%98%E6%8E%A5%E5%85%A5/OPC%E8%AE%BE%E5%A4%87%E6%8E%A5%E5%85%A5/%E6%A6%82%E8%BF%B0)|浙里办水泵远程检测|
-|[智慧物流](https://gitee.com/dgiiot/dgiot/wikis/%E8%A1%8C%E4%B8%9A%E6%A1%88%E4%BE%8B/%E6%99%BA%E6%85%A7%E7%89%A9%E6%B5%81)|[Zeta设备接入](https://gitee.com/dgiiot/dgiot/wikis/%E5%AE%9E%E6%88%98%E6%8E%A5%E5%85%A5/Zeta%E8%AE%BE%E5%A4%87%E6%8E%A5%E5%85%A5/%E6%A6%82%E8%BF%B0)|[千万级物流Zetag标签压测](https://gitee.com/dgiiot/dgiot/wikis/%E5%8E%8B%E6%B5%8B%E6%8A%A5%E5%91%8A/1500%E4%B8%87Zetag%E6%A0%87%E7%AD%BE%E7%89%A9%E6%B5%81%E5%85%A8%E4%B8%9A%E5%8A%A1%E5%8E%8B%E6%B5%8B)|
-|[智慧园区](https://gitee.com/dgiiot/dgiot/wikis/%E8%A1%8C%E4%B8%9A%E6%A1%88%E4%BE%8B/%E6%99%BA%E6%85%A7%E5%9B%AD%E5%8C%BA)|[云云对接](https://gitee.com/dgiiot/dgiot/wikis/%E5%AE%9E%E6%88%98%E6%8E%A5%E5%85%A5/%E4%BA%91%E4%BA%91%E5%AF%B9%E6%8E%A5/%E6%A6%82%E8%BF%B0)|智慧场馆|
-
-## 业务架构
-![业务架构图.jpg](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/shuwa_tech/zh/%E4%B8%9A%E5%8A%A1%E6%9E%B6%E6%9E%84%E5%9B%BE.jpg)
-
-## 系统部署
-+ **centos 7.6/7.9** 推荐使用腾讯云和阿里云部署，具体操作[点击这里](https://gitee.com/dgiiot/dgiot/wikis/DG-IoT%E7%89%A9%E8%81%94%E7%BD%91%E6%89%8B%E5%86%8C/%E7%AE%80%E4%BB%8B/%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2)
-```
-wget -qO dgiot_install.sh https://gitee.com/dgiiot/dgiot/raw/master/dgiot_install.sh  && sh dgiot_install.sh
-```
-|   |   | |
-| -----| ------ |------ |
-|内容  |  脚本 | 说明 |
-| 版本更新  | sh dgiot_install.sh -s {版本} | [版本列表](https://gitee.com/dgiiot/dgiot/wikis/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C/%E4%BA%A7%E5%93%81%E7%AE%80%E4%BB%8B/%E7%B3%BB%E7%BB%9F%E9%83%A8%E7%BD%B2/%E7%89%88%E6%9C%AC%E5%88%97%E8%A1%A8)|
-| 证书安装  | sh dgiot_install.sh -d {域名} | [证书制作](https://gitee.com/dgiiot/dgiot/wikis/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C/%E4%BA%A7%E5%93%81%E7%AE%80%E4%BB%8B/%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2)|
-| 本地构建  | sh dgiot_install.sh -v devops -s {版本} -p {插件名称} | [插件开发](https://gitee.com/dgiiot/dgiot/wikis/%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91/%E6%A6%82%E8%BF%B0) |
-|Docker部署|https://hub.docker.com/r/dgiot/dgiot|
-
-## 服务支持
-数字化需求日益增长与企业缺钱缺人缺经验的矛盾日益突出，为此dgiot坚持代码开源，产品免费，持续改善物联网服务性价比，同时倡议：
-+ 欢迎dgiot用户多尝试自助服务，多参与社区建设，多提issue，多在qq或者微信上反馈真实的物联网需求，助力提升社区服务品质
-+ 欢迎dgiot先来者可以为后来者提供系统部署，插件开发和设备接入等指导服务，一起提供更多优质VIP服务，构建可持续的社区生态
-+ dgiot团队在保守用户商业机密的前提下，将持续提炼行业业务需求和物联网平台运维经验，把行业真需求和一线经验沉淀到社区生态中
-
-|   |   | | |
-| -----| ------ |------- |------- |
-| 内容  |  服务等级 |服务收费| 服务方式 |
-| 一键系统部署  | 自助  |  免费 | 点击查看部署脚本，社区服务 |
-| [一键插件开发](https://gitee.com/dgiiot/dgiot/wikis/%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2/%E7%B3%BB%E7%BB%9F%E9%83%A8%E7%BD%B2)  | 自助 |  免费 | 点击查看DevOps脚本，社区服务 |
-| 设备接入教程  | 自助 |  免费 | 点击查看教程，社区服务 |
-| 脚本使用指导  | 半小时   |  百元级 | 远程VIP服务|
-| 设备接入指导  | 半天 | 千元级 | 远程VIP服务 |
-| 项目经理培训  | 三天 | 数千元级 | 线下培训服务 |
-| 应用开发培训  | 三周 | 万元级 | 线下培训服务 |
-| [业务模拟压测](https://gitee.com/dgiiot/dgiot/wikis/%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C/%E4%BA%91%E5%8E%8B%E6%B5%8B/%E4%BA%A7%E5%93%81%E5%8A%9F%E8%83%BD)  | 一月 | 万元级 | 7 X 24 小时VIP服务 |
-| 企业设备管控  | 一年 | 十万元级 | 5 X 8 小时VIP服务 |
-| 行业运营平台  | 一年 | 面谈 | 7 X 24 小时VIP服务 |
-
-## 构建
-构建 *dgiot* 需要 Erlang/OTP R23+, Windows下用 [开发环境包](https://dgiotdev-1308220533.cos.ap-nanjing.myqcloud.com/msys64.zip)开发。下载后解压到D盘根目录，严格按照下图操作：
-![dgiotdevtools.png](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/shuwa_tech/zh/dgiotdevtools.png)
-+  国外下载源码
-```bash
- git clone -b master https://github.com/dgiot/dgiot-dashboard.git
- git clone https://github.com/dgiot/dgiot.git
-```
-+  国内下载源码
-```bash
- git clone -b master https://gitee.com/dgiiot/dgiot-dashboard.git
- git clone https://gitee.com/dgiiot/dgiot.git
-```
-+  一键式启动命令Linux/Unix/Mac/windows
- ```bash
- make run
- ```
-+ Make Debug
- ```
-  make DIAGNOSTIC=1
- ```
-*DGIOT* 启动，可以使用浏览器访问 http://localhost:5080 来查看 Dashboard。
-
-- 新功能的完整列表，请参阅 [DGIOT Release Notes](https://github.com/dgiot/dgiot/releases)。
-- 获取更多信息，请访问 [DGIOT 官网](https://tech.iotn2n.com/)。
-
-## 参与设计
-
-如果对 DGIOT 有改进建议，可以向[EIP](https://github.com/dgiot/eip) 提交 PR 和 ISSUE
+# 立即开始
+   一键式部署的dgiot用户越来越多，但最终部署成功率偏低，为了更好的服务dgiot用户，
+   近期将安排一系列的一键式部署测试，希望能得到dgiot生态合作伙伴、云服务厂商和服务器厂商的支持，谢谢！
+   ## 一键部署
+   dgiot的部署非常简单，一键部署指令即可，[点击获取](#!)。
+   
+   ## 一键更新
+   [点击获取](#~)
+   ## 版本列表
+   | 发行版                                                    | 版本号   |MD5| 说明|
+   |----------------------------------------------------------|----------|----|----|
+   | [v4.4.5](https://gitee.com/dgiiot/dgiot/releases/v4.4.5) | dgiot_156|  8c2fba6120d3c2f9a92ad9813275adc6 |增加了OPC/modbus/mqtt/电表，四种类型的设备接入|
+   | [v4.4.6](https://gitee.com/dgiiot/dgiot/releases/v4.4.6) | dgiot_187| 8141f4a429cb7076477ca5f1980de42f |修复组态保存问题，修复设备地理位置修改后实时显示的问题，增加了对天翼云的支持|
+   | [v4.4.7](https://gitee.com/dgiiot/dgiot/releases/v4.4.7) | dgiot_254|  b70d95592f0a65c8ba896e451e892ccc|区分开发角色和运维角色，优化了平台的功能菜单，优化了平台的打开速度，开放了云检测的检测任务|
+   | [v4.4.8](https://gitee.com/dgiiot/dgiot/releases/v4.4.8) | dgiot_280|  642cb947f7d69e29029a20bb184883d7|优化了前端加载资源，修复了组态bug|
+   | [v4.4.9](https://gitee.com/dgiiot/dgiot/releases/v4.4.9) | dgiot_n33|  26599c0d5d94575bd1b04109aba3b1cb|组态增加了低代码控制功能，在云函数添加了低代码的管理界面|
+   | [v4.5.0](https://gitee.com/dgiiot/dgiot/releases/v4.5.0) | dgiot_n62|  71e0211861b647b1c6816ce81f26f52f|更新了物模型和物模型的配置界面，集成了数据字典，开放了DLT645，DLT376，DLINK协议，支持DLT645和DLT376电表接入，可以通过低代码平台对dgiot进行二次开发了|
+   | [v4.5.1](https://gitee.com/dgiiot/dgiot/releases/v4.5.1) | dgiot_n99|  2db7806c1bdb7eb5fddbb460af94f285|1、城市建筑消防协议GB26875;<br/>2、物模型动态协议;<br/>3、HTTPC客户端桥接通道;<br/>4、MQTTC客户端桥接通道;<br/>5、UDPC客户端桥接通道;<br/>6、TCPC客户端桥接通道;<br/>7、MYSQL采集通道|
+   | [v4.5.3](https://gitee.com/dgiiot/dgiot/releases/v4.5.3) | dgiot_n139|  3da7c2e4929259d3c3c023f67f8bb979|1. parse订阅功能, 实现配置联动功能，如产品设备缓存，td库表字段自动变更等 <br/>2. 适配百度amis整套api，支持json多级merge，低代码适配更简单 <br/>3. 物模型属性上报，与规则引擎联动产生设备告警，并推送到消息通知通道（支持小程序，短信，邮件等） <br/>4. 通过产品卡片展示组态/低代码/字典等功能，并展示产品下设备在/离线，开/关机等统计功能，设备管理添加 <br/>5. 新增设备会自动添加动态表单大屏，设备组态示例，设备列表中增加设备位置，设备状态自动同步缓存表，支持低代码下发设备配置<br/>6. 删除部分多余的api，并添加swaggeer树结构 <br/>7. dlink协议增加mqtt设备接入，并打通从设备到用户侧全流程的鉴权和消息路由<br/>8. 修复上个版本因物模型支持动态协议电表设备和mqtt设备接入失败等bug|
+   | [v4.5.4](https://gitee.com/dgiiot/dgiot/tree/v4.5.4) | dgiot_n184|  963afd492685c5c5cd14a52b072f17b4|1、dgiot_dlink topic指令统一规范<br/>2、dgiot_client 统一管理<br/>3、dgiot_task 指令任务流程优化<br/>4、设备管理页面优化，（设备状态，地理位置，实时数据，设备信息，设备控制）<br/>5.组态设计/预览拆分<br/>6.新增压测云栏目<br/>7.优化用户低代码设计<br/>8.历史数据统计|
+   | [v4.5.5](https://gitee.com/dgiiot/dgiot/releases/v4.5.5) | dgiot_n206|  63ede62183ec67827ae7b5aef4cc1901|1.组态编辑bug修复(修复组态绑定物模型、修复组态物模型回显)<br/>2.组态显示bug修复(修复低代码控件显示对应实时数据，修复实时数据显示单位)<br/>3.修复分页组件联动功能(告警中心、产品管理、设备管理、通道管理)<br/>4.物模型添加是否展示功能<br/>5.手动新建设备默认在线状态(之前手动创建为离线状态)<br/>6.合并设备管理与设备列表，名称还为设备管理<br/>7.dgiot_device缓存优化|
+   
+   ## 部署支持列表
+   |      | centos 6/7/8 |  debian8/10 | ubuntu 16.04/18.04 | Windows|Mac|Docker|
+   |------|----------|----------|----------|---------|----------|--------------|
+   | 百度云     |      √   |       |          |         |          |              |   
+   | 腾讯云     |    √   |      |          |         |  ||
+   | 阿里云     |     √  |       |          |         |          |              |  
+   | 华为云     |     √   |       |          |         |          |              | 
+   | 天翼云     |      √  |       |          |         |          |              | 
+   | AWS云      |      |       |          |         |          |              |  
+   | 微软云      |      |       |          |         |          |              |  
+   | 谷歌云      |      |       |          |         |          |              |  
+   | 联想笔记本  |       |       |          |         |          |              | 
+   | Mac笔记本   |       |       |          |         |          |              |    
+   | 浪潮服务器  |     √  |       |          |         |          |              |    
+   | 戴尔服务器  |     √  |       |          |         |          |              |    
+   
+   ## 配置要求
+   |要求|配置|
+   |---|---|
+   |最低|一核1G|
+   |商用|四核8G|
+   
+   centos 7镜像下载
+   https://share.weiyun.com/nwIG7HyW
+   
+   
+       

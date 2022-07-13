@@ -1,0 +1,28 @@
+{
+  "unversionedId": "practical_tutorial/docs/8",
+  "id": "practical_tutorial/docs/8",
+  "title": "OPC-DA设备接入教程",
+  "description": "OPC软件作为工业自动化领域应用最广泛的软件，深受工业控制人员的喜爱。但也有许多情况下，OPC软件并不能满足实际的使用需求：",
+  "source": "@site/docs/practical_tutorial/docs/8.md",
+  "sourceDirName": "practical_tutorial/docs",
+  "slug": "/practical_tutorial/docs/8",
+  "permalink": "/en/docs/practical_tutorial/docs/8",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/practical_tutorial/docs/8.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "title": "OPC-DA设备接入教程",
+    "sidebar_position": 9
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "水泵性能曲线测量案例",
+    "permalink": "/en/docs/practical_tutorial/docs/7"
+  },
+  "next": {
+    "title": "摄像头接入",
+    "permalink": "/en/docs/practical_tutorial/docs/9"
+  }
+}

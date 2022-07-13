@@ -28,11 +28,11 @@
     "description": "Navbar item with label Solution"
   },
   "item.label.SmartBuilding": {
-    "message": "智慧工地",
+    "message": "设备运维",
     "description": "Navbar item with label SmartBuilding"
   },
   "item.label.SmartVenue": {
-    "message": "智慧场馆",
+    "message": "智慧园区",
     "description": "Navbar item with label SmartVenue"
   },
   "item.label.DigitalFactory": {
