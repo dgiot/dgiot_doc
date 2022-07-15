@@ -15,5 +15,8 @@ jobs:
       - uses: opstrace/algolia-docs-sync@v1.0.2
         with:
           algoliaId: 'QTVPN6XDU8'
-          algoliaKey: "e04ec2b7e286c6017b1b1e2ea99d979c"
+          algoliaKey: 'e04ec2b7e286c6017b1b1e2ea99d979c'
           algoliaIndex: 'dgiot_doc'
+      - name: Run Docker container
+        run: |
+          docker run -e "APPLICATION_ID=${{ secrets.APPLICATION_ID }}" -e "API_KEY=${{ secrets.API_KEY }}" -e "CONFIG=$(cat ./algoliaConfig.json | jq -r tostring)" algolia/docsearch-scraper
