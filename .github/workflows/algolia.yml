@@ -1,0 +1,19 @@
+name: Sync Algolia
+
+on:
+  push:
+    branches:
+      - 'main'
+
+jobs:
+  algolia:
+    runs-on: ubuntu-latest
+    name: Algolia Sync
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: opstrace/algolia-docs-sync@v1.0.2
+        with:
+          algoliaId: 'QTVPN6XDU8'
+          algoliaKey: "e04ec2b7e286c6017b1b1e2ea99d979c"
+          algoliaIndex: 'dgiot_doc'
