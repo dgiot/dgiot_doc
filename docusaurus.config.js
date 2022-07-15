@@ -14,7 +14,7 @@ const config = {
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/logo.png',
     organizationName: 'dgiot', // Usually your GitHub org/user name.
-    projectName: 'dgiot-web', // Usually your repo name.
+    projectName: 'dgiot_doc', // Usually your repo name.
     presets: require('./config/presets.js'),
     plugins: require('./config/plugins.js'),
     i18n: require('./config/i18n.js'),
