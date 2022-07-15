@@ -20,5 +20,9 @@
   "previous": {
     "title": "摄像头接入",
     "permalink": "/en/docs/practical_tutorial/docs/9"
+  },
+  "next": {
+    "title": "iot_app",
+    "permalink": "/en/docs/practical_tutorial/docs/iot_app"
   }
 }

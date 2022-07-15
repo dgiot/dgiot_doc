@@ -68,15 +68,15 @@ module.exports = {
             label: 'Community',
             position: 'right'
         },
-        {
+        /*{
             href: 'http://www.dgiotcloud.cn/?page_id=2',
             label: 'Support',
             position: 'right'
-        },
-        {
+        },*/
+        /*{
             type: 'localeDropdown',
             position: 'right',
-        },
+        },*/
         {
             href: 'https://github.com/dgiot/dgiot',
             label: 'GitHub',
