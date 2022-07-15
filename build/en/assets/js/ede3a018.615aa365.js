@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdgiot_website=self.webpackChunkdgiot_website||[]).push([[5127],{3534:(e,t,l)=>{l.r(t),l.d(t,{default:()=>r});var a=l(9496),n=l(5953),c=l(7060),s=l(4337);function r(){const e=(0,n.ZP)();return a.createElement(c.Z,null,a.createElement("h2",null,"Global data"),a.createElement(s.Z,{src:e,collapseDepth:3}))}}}]);
