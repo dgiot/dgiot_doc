@@ -59,6 +59,9 @@ jobs:
           yarn install
           yarn build &> /dev/null
           cp -r README.md  LICENSE build
+      - name: Run Docker container
+        run: |
+          docker run -e "APPLICATION_ID=${{ secrets.APPLICATION_ID }}" -e "API_KEY=${{ secrets.API_KEY }}" -e "CONFIG=$(cat ./algoliaConfig.json | jq -r tostring)" algolia/docsearch-scraper
       - name: Upload  dgiot_doc 🚀
         uses: actions/upload-artifact@v2
         with:
