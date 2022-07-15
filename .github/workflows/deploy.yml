@@ -1,7 +1,7 @@
 name: deploy
 on:
   push:
-    branches: [ * ]
+    branches: [ main ]
   workflow_dispatch:
 
 # 设置上海时区
