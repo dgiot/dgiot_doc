@@ -1,3 +1,3 @@
-# dgiot-website
+# dgiot-doc
 
-This repository contains the ChunJun website: https://dgiot.github.io/dgiot-website/
+This repository contains the ChunJun website: https://doc.dgiotcloud.cn/
