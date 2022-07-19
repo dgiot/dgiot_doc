@@ -26,5 +26,69 @@
   "sidebar.docs.category.practical_tutorial": {
     "message": "实战教程",
     "description": "The label for category practical_tutorial in sidebar docs"
+  },
+  "sidebar.docs.category.设备运维": {
+    "message": "设备运维",
+    "description": "The label for category 设备运维 in sidebar docs"
+  },
+  "sidebar.docs.category.智慧园区": {
+    "message": "智慧园区",
+    "description": "The label for category 智慧园区 in sidebar docs"
+  },
+  "sidebar.docs.category.数字工厂": {
+    "message": "数字工厂",
+    "description": "The label for category 数字工厂 in sidebar docs"
+  },
+  "sidebar.docs.category.云检测": {
+    "message": "云检测",
+    "description": "The label for category 云检测 in sidebar docs"
+  },
+  "sidebar.docs.category.云压测": {
+    "message": "云压测",
+    "description": "The label for category 云压测 in sidebar docs"
+  },
+  "sidebar.docs.category.简介": {
+    "message": "简介",
+    "description": "The label for category 简介 in sidebar docs"
+  },
+  "sidebar.docs.category.设备云": {
+    "message": "设备云",
+    "description": "The label for category 设备云 in sidebar docs"
+  },
+  "sidebar.docs.category.多租户": {
+    "message": "多租户",
+    "description": "The label for category 多租户 in sidebar docs"
+  },
+  "sidebar.docs.category.云运维": {
+    "message": "云运维",
+    "description": "The label for category 云运维 in sidebar docs"
+  },
+  "sidebar.docs.category.云函数": {
+    "message": "云函数",
+    "description": "The label for category 云函数 in sidebar docs"
+  },
+  "sidebar.docs.category.云系统": {
+    "message": "云系统",
+    "description": "The label for category 云系统 in sidebar docs"
+  },
+  "sidebar.docs.category.云日志": {
+    "message": "云日志",
+    "description": "The label for category 云日志 in sidebar docs"
+  },
+  "sidebar.docs.category.back_end": {
+    "message": "后端技术",
+    "description": "The label for category back_end in sidebar docs"
+  },
+  "sidebar.docs.category.data_identification": {
+    "message": "数据标识",
+    "description": "The label for category data_identification in sidebar docs"
+  },
+  "sidebar.docs.category.front_end": {
+    "message": "前端技术",
+    "description": "The label for category front_end in sidebar docs"
+  },
+  "sidebar.docs.category.time_series": {
+    "message": "时序数据",
+    "description": "The label for category time_series in sidebar docs"
   }
 }
