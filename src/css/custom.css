@@ -75,15 +75,6 @@ footer {
 /*.navbar {*/
 /*  display: none;*/
 /*}*/
-/*iframe*/
-iframe {
-  width: 100%;
-  height: 99.11vh;
-}
-html {
-  　　overflow-x: hidden;
-  　　overflow-y: hidden;
-}
 /*隐藏日夜主题*/
 .toggle_node_modules-\@docusaurus-theme-classic-lib-theme-ColorModeToggle-styles-module{
   display: none !important;

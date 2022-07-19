@@ -1,6 +1,6 @@
 import { Button, Modal, Form, Input, Select, message } from 'antd'
 import React, { useState } from 'react'
-import version from '@site/config/version'
+// import version from '@site/config/version'
 import axios from 'axios'
 import 'antd/dist/antd.css'
 const { Option } = Select
@@ -43,10 +43,10 @@ export default function dgiotVersion({ children, color }) {
   const onFinish = (values) => {
     from['dgiot-version'] = values.version
     from['your-email'] = values.email
-    const formData = new FormData();
+    const formData = new FormData()
     Object.keys(from).forEach((key) => {
-      formData.append(key, from[key]);
-    });
+      formData.append(key, from[key])
+    })
     axios({
       url: 'https://www.dgiotcloud.cn/index.php?rest_route=/contact-form-7/v1/contact-forms/694/feedback',
       method: 'post',
@@ -65,12 +65,17 @@ export default function dgiotVersion({ children, color }) {
   const showModal = () => {
     setIsModalVisible(true)
   }
+  const handleCancel = () => {
+    setIsModalVisible(false)
+  }
   return (
     <div>
       <Button type="primary" onClick={showModal}>
         {children}
       </Button>
       <Modal
+        destroyOnClose={true}
+        onCancel={handleCancel}
         footer={null}
         title="输入您的电子邮箱以接收下载链接"
         visible={isModalVisible}
@@ -84,6 +89,7 @@ export default function dgiotVersion({ children, color }) {
           <Form.Item
             name="version"
             label="下载类型"
+            initialValues="最新版本"
             rules={[{ required: true, message: 'Please select gender!' }]}
           >
             <Select placeholder="请选择下载类型">
