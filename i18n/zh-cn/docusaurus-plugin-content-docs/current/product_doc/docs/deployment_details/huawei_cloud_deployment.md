@@ -44,12 +44,12 @@ wget -qO dgiot_install.sh https://gitee.com/dgiiot/dgiot/raw/master/dgiot_instal
 
 | 端口名 | 连接地址 | 说明 |
 |-----|----|----|
-|  80   |  http://prod.iotn2n.com/  |  dgiot http连接  |
-|  443  |  https://prod.iotn2n.com/ |  dgiot https证书连接  |
-|  1883   | tcp://prod.iotn2n.com:1883 |   mqtt tcp连接 |
-|  8883| tcp://prod.iotn2n.com:8883    |   mqtt tcp 证书连接 |
-|  8083  | ws://prod.iotn2n.com:8083/mqtt   |  mqtt websocket连接  |
-|  8084  |  wss://prod.iotn2n.com:8084/mqtt  | mqttwebsocke证书连接   |
+|  80   |  http://prod.dgiotcloud.cn/  |  dgiot http连接  |
+|  443  |  https://prod.dgiotcloud.cn/ |  dgiot https证书连接  |
+|  1883   | tcp://prod.dgiotcloud.cn:1883 |   mqtt tcp连接 |
+|  8883| tcp://prod.dgiotcloud.cn:8883    |   mqtt tcp 证书连接 |
+|  8083  | ws://prod.dgiotcloud.cn:8083/mqtt   |  mqtt websocket连接  |
+|  8084  |  wss://prod.dgiotcloud.cn:8084/mqtt  | mqtt websocke证书连接   |
 
 #### 7.部署完成后，打开浏览器，输入域名/IP地址即可访问物联网平台，稍等片刻
 ![hwyun7.png](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/shuwa_tech/zh/wiki/hwyun/hwyun7.png)

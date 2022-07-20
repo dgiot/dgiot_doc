@@ -82,7 +82,6 @@ const sidebars = {
             collapsible: true,
             collapsed: false,
             items: [
-                'product_doc/index',
                 {
                     type: 'category',
                     label: '部署详情',

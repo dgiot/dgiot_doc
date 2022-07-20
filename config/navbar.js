@@ -22,7 +22,7 @@ module.exports = {
         },
         {
             type: 'doc',
-            docId: 'product_doc/index',
+            docId: 'product_doc/docs/deployment_details/system_deployment',
             position: 'right',
             label: 'Docs',
         },

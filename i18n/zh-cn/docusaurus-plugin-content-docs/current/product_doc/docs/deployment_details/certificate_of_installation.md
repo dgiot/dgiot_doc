@@ -5,7 +5,7 @@ sidebar_position: 9
 
 ## TLS证书
 1，一键部署
-[参考部署详情](https://doc.dgiotcloud.cn/docs/product_doc/docs/deployment_details/certificate_of_installation)
+[参考部署详情](https://doc.dgiotcloud.cn/docs/product_doc/docs/deployment_details/system_deployment/)
 
 2，在服务器上可以找到TSL证书如下：
 ![找到TSL证书](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/image_deployment/certificate1.png)
