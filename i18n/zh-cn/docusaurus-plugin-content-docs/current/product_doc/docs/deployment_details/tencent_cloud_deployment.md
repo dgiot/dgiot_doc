@@ -4,6 +4,13 @@ sidebar_position: 4
 ---
 
 为了节省开发者和实施工程师的时间，降低部署难度，本文提供了一套基于linux系统的一键式部署方式，以便快速交付，提升学习和商用部署的效率。
+## 腾讯云购买
+<iframe width="800" height="600" src="//player.bilibili.com/player.html?aid=724313337&bvid=BV1fS4y1z7Gp&cid=515950749&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+## 腾讯云部署
+
+<iframe width="800" height="600" src="//player.bilibili.com/player.html?aid=636914899&bvid=BV18b4y1x77E&cid=518946169&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 ## 安装部署
 
 #### 1.服务器（本案例采用腾讯云服务器作为示例）
