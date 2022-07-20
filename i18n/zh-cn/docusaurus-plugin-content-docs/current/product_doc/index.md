@@ -10,13 +10,14 @@ import DgiotVersion from '@site/src/components/dgiotVersion';
 一键式部署的 dgiot 用户越来越多，但最终部署成功率偏低，为了更好的服务 dgiot 用户，
 近期将安排一系列的一键式部署测试，希望能得到 dgiot 生态合作伙伴、云服务厂商和服务器厂商的支持，谢谢！
 
-## 一键部署
+## 一键部署/一键更新
 
-dgiot 的部署非常简单，一键部署指令即可。
+dgiot 的部署/更新非常简单，一键部署/更新指令即可。
+dgiot也将会提供开发工具、最新代码。
 
 <DgiotVersion color="#25c2a0" title='输入您的电子邮箱以接收下载链接'>点击获取</DgiotVersion>
 
-## 一键更新
+具体部署操作请转移至部署详情。
 
 ## 版本列表
 

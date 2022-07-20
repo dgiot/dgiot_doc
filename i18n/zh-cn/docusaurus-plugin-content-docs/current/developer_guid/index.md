@@ -1,5 +1,5 @@
 ---
-title: 简介
+title: 整体设计
 sidebar_position: 1
 ---
 # DGIOT物联网平台简介
