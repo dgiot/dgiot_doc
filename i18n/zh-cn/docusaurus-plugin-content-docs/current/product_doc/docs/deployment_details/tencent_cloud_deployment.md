@@ -21,7 +21,7 @@ sidebar_position: 4
 
 由于一键式部署要求纯操作系统环境，无需安装其他例如Nginx/Tengine+MySQL等软件，否则易和一键式部署冲突，如果已有相关应用，请联系微信群技术客服单独处理
 
-#### 2.一键部署脚本获取路径： https://doc.dgiotcloud.cn/docs/product_doc/ 进入DG-IOT开源物联网平台
+#### 2.一键部署脚本获取路径： https://doc.dgiotcloud.cn/docs/product_doc/ 进入dgiot开源物联网平台
 
 #### 3.页面下滑至一键部署处，复制如下代码
 ```

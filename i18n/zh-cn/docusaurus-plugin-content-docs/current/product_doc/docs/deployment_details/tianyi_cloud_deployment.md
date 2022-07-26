@@ -11,7 +11,7 @@ sidebar_position: 6
 #### 1.1 DGIOT用户均可通过DGIOT开源平台指定天翼云战略合作伙伴（中国电信5G创新实验室•甬畅实验室）获取天翼云主机免费使用1个月体验资格，体验免费，后可申请后付费。
 #### 1.2 获取甬畅实验室提供的天翼云主机体验账号后，体验默认配置为1核1G云主机一台、弹性IP一个，系统盘40G，操作系统：centos 7.6
 #### 1.3 如已经有天翼云主机，由于一键式部署要求纯操作系统环境，无需安装其他例如Nginx/Tengine+MySQL等软件，否则易和一键式部署冲突，如果已有相关应用，请联系微信群技术客服单独处理
-### 2. 一键部署脚本获取路径： https://doc.dgiotcloud.cn/docs/product_doc/ 进入DG-IOT开源物联网平台
+### 2. 一键部署脚本获取路径： https://doc.dgiotcloud.cn/docs/product_doc/ 进入dgiot开源物联网平台
 ### 3. 页面下滑至一键部署处，复制如下代码
 ```
 wget -qO dgiot_install.sh https://gitee.com/dgiiot/dgiot/raw/master/dgiot_install.sh  && sh dgiot_install.sh

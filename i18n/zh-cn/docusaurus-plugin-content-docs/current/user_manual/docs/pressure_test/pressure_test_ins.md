@@ -2,21 +2,21 @@
 title: DGIOT-云压测介绍
 sidebar_position: 1
 ---
-# DG-IoT云压测
+# dgiot云压测
 
 ## 简述
 
- DG-IoT云测平台，面向物联网各种垂直领域的全业务云端检测平台，内部集成可视化任务模块、压测指标分析模块、自动压测报告模块等。
+ dgiot云测平台，面向物联网各种垂直领域的全业务云端检测平台，内部集成可视化任务模块、压测指标分析模块、自动压测报告模块等。
  支持物联网企业在线创建各种业务场景任务、性能执行脚本、实时监控任务执行过程中性能指标，并自动输出专业的全业务测试评估报告。
 
- ### DG-IoT云压测特点
+ ### dgiot云压测特点
 
   + **轻** 多种操作系统平台;30分钟可部署调试
   + **快** 一键式快速部署;压测任务可视化配置 
   + **省** 只花费传统费用1/5，即可享受运营级服务器压测专业服务  
   + **专** 团队专注高并发服务器研发7年以上，运营过亿级商业平台
 
- ### DG-IoT云压测主要步骤
+ ### dgiot云压测主要步骤
 
     1. 构建插件模拟海量设备注册，数据上报，数据存储、数据消费的全业务场景
     2. 构建符合Promethus规范exporter指标体系实时监控全业务链路上各项指标
@@ -140,7 +140,7 @@ sidebar_position: 1
 
 ### 云压测
 
-DG-IoT云压测产品是基于DG-IoT物业物联网平台的一款云计算产品，可以模拟真实业务场景进行全业务场景模拟和全链路数据监控
+dgiot云压测产品是基于dgiot物业物联网平台的一款云计算产品，可以模拟真实业务场景进行全业务场景模拟和全链路数据监控
 
 ![test_arch.png](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/shuwa_tech/zh/product/dgtest/test_arch.png)
 
@@ -401,7 +401,7 @@ wget http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_release/shuw
 
 | 模块   | 名词             | 描述                                                         |
 | ------ | ---------------- | ------------------------------------------------------------ |
-| DGTEST | Task             | DG-IoT开发的面向工业物联网的高并发模拟压测程序，有完整的业务流程。 |
+| DGTEST | Task             | dgiot开发的面向工业物联网的高并发模拟压测程序，有完整的业务流程。 |
 | DGTEST | Report           | 用户最终得到的word压测报告文件，包含压测的业务场景、压测过程数据与图表。 |
 | DGTEST | Report Label     | 统计指标或者图标与word报告中标签关系，job_metrics 例如，job为zeta_server，metrics为CPU_max，则实际标签为zeta_server_CPU_max,通过统计标签与word文件动态映射数据 |
 | DGTEST | Report templates | 用户根据业务需求定制的word模板后,把需要动态替换的图片或者文件替换成DGTEST_LAB后形成的模板文件。 |

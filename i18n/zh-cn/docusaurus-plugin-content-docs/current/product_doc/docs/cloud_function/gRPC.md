@@ -6,12 +6,12 @@ sidebar_position: 1
 ## 简述
 
 - 基于gRPC进行跨服务、跨编程语言的能力扩展
-- 可以将远程微服务的能力返回给DG-IoT
+- 可以将远程微服务的能力返回给dgiot
 
 ## 架构
 
 ```
-DG-IoT                                      Third-party Runtime
+dgiot                                      Third-party Runtime
 +========================+                 +========+==========+
 |    ExHook              |                 |        |          |
 |   +----------------+   |      gRPC       | gRPC   |  User's  |

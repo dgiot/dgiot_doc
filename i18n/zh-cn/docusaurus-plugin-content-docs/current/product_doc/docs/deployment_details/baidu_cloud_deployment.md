@@ -17,7 +17,7 @@ sidebar_position: 2
 ![baiduyun2.png](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/shuwa_tech/zh/wiki/baiduyun/baiduyun2.png)
 
 
-#### 2.一键部署脚本获取路径： https://doc.dgiotcloud.cn/docs/product_doc/ 进入DG-IOT开源物联网平台
+#### 2.一键部署脚本获取路径： https://doc.dgiotcloud.cn/docs/product_doc/ 进入dgiot开源物联网平台
 
 #### 3.页面下滑至一键部署处，复制如下代码
 ```

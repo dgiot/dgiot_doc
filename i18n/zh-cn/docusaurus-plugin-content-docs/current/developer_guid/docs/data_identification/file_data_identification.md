@@ -4,7 +4,7 @@ sidebar_position: 1
 ---
 
 # 文件数据编码原理
-  文件数据编码基础是文件路径与文件名，DG-IoT通过结合数据分类对文件数据的filepath和filename进行编码
+  文件数据编码基础是文件路径与文件名，dgiot通过结合数据分类对文件数据的filepath和filename进行编码
 
 # go-fastdfs
 [go-fastdfs](https://sjqzhang.github.io/go-fastdfs/#character)是一个基于http协议的分布式文件系统,与dgiot权限系统无缝集成，支持自定义filepath和filename，符合文件数据编码要求,下面是java文件上传代码示例
