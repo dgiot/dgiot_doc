@@ -4,7 +4,7 @@ sidebar_position: 1
 ---
 ## MQTT客户端
 
-DG-IoT平台集成了许多常用的工具，例如[MQTT客户端](http://prod.iotn2n.com/#/tools/websocket)。
+dgiot平台集成了许多常用的工具，例如[MQTT客户端](http://prod.iotn2n.com/#/tools/websocket)。
 
 用户可以在此进行mqtt消息的接收测试。
 

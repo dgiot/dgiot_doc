@@ -49,4 +49,4 @@ handle_info({livequery, _Other}, State) ->
 
 ## API Hook同步数据（数据库+缓存 ->用户）
 
-用户查询parse库后返回过程中，DG-IOT自动同步ets缓存中的实时状态数据，解决状态不同步问题，
+用户查询parse库后返回过程中，dgiot自动同步ets缓存中的实时状态数据，解决状态不同步问题，

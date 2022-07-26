@@ -19,7 +19,7 @@ sidebar_position: 5
 点击云服务器实例，选择远程登录入口，**如果安装时忘记设置密码可以在下面页面重置一下密码** 
 ![hwyun3.png](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/shuwa_tech/zh/wiki/hwyun/hwyun3.png)
 
-#### 2.一键部署脚本获取路径： https://doc.dgiotcloud.cn/docs/product_doc/ 进入DG-IOT开源物联网平台
+#### 2.一键部署脚本获取路径： https://doc.dgiotcloud.cn/docs/product_doc/ 进入dgiot开源物联网平台
 
 #### 3.页面下滑至一键部署处，复制如下代码
 ```
