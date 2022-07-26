@@ -5,7 +5,7 @@ sidebar_position: 2
 
 # 前端消息路由框架
 dgiot-mqtt2eventbus
-![dgiot前端消息路由.png](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/shuwa_tech/zh/frontend/web/msg_route/dgiot%E5%89%8D%E7%AB%AF%E6%B6%88%E6%81%AF%E8%B7%AF%E7%94%B1.png)
+![dgiot前端消息路由.png](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/shuwa_tech/zh/frontend/web/msg_route/DG-IoT%E5%89%8D%E7%AB%AF%E6%B6%88%E6%81%AF%E8%B7%AF%E7%94%B1.png)
 
 + 实现现一个前端用户只需要一个mqtt连接
 + 页面业务与网络通讯(mqtt)去耦合

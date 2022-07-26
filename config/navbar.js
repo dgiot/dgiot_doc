@@ -64,8 +64,13 @@ module.exports = {
             ],
         },
         {
-            href: 'http://www.dgiotcloud.cn/?page_id=12',
-            label: 'Community',
+            href: 'https://www.dgiotcloud.cn/?cat=25',
+            label: 'Partner',
+            position: 'right'
+        },
+        {
+            href: 'https://www.dgiotcloud.cn/?page_id=12',
+            label: 'Guest',
             position: 'right'
         },
         /*{

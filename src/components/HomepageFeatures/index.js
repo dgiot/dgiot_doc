@@ -66,11 +66,18 @@ function HomepageHeader() {
     {
       text: '实战教程',
       children: [
-        { text: '系统架构' },
-        { text: '后端技术' },
-        { text: '数据标识' },
-        { text: '前端技术' },
-        { text: '时序数据' },
+        { text: '基础知识' },
+        { text: '电表接入' },
+        { text: '视频教程' },
+        { text: 'PT100传感器接入教程' },
+        { text: '电力集抄教程' },
+        { text: 'DDZY1296电表接入教程' },
+        { text: '三合一传感器接入教程' },
+        { text: 'Mqtt设备接入教程' },
+        { text: '水泵性能曲线测量案例' },
+        { text: 'OPC-DA设备接入教程' },
+        { text: '摄像头接入' },
+        { text: '测试' },
       ],
     },
   ]

@@ -4,7 +4,7 @@ sidebar_position: 14
 ---
 
 # dgiot日志系统
-![dgiot日志.png](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/shuwa_tech/zh/backend/dgiot/log/dgiot%E6%97%A5%E5%BF%97.png)
+![dgiot日志.png](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/shuwa_tech/zh/backend/dgiot/log/DG-IoT%E6%97%A5%E5%BF%97.png)
 dgiot日志系统是基于Erlang/OTP原生的日志系统基础上扩展而成，主要包含日志来源，日志处理，日志输出和日志展示四个部分
 
 # 日志来源

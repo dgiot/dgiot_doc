@@ -47,9 +47,13 @@
     "message": "云压测",
     "description": "Navbar item with label CloudTest"
   },
-  "item.label.Community": {
-    "message": "社区",
-    "description": "Navbar item with label Community"
+  "item.label.Partner": {
+    "message": "合作伙伴",
+    "description": "Navbar item with label Partner"
+  },
+  "item.label.Guest": {
+    "message": "创客",
+    "description": "Navbar item with label Guest"
   },
   "item.label.Products": {
     "message": "产品",
