@@ -32,7 +32,7 @@ function HomepageHeader() {
     {
       text: '用户手册',
       children: [
-        { text: '设备运维' },
+        { text: '设备运维',href:"/docs/user_manual/docs/equipment_operational/equipment_leasing" },
         { text: '智慧园区' },
         { text: '数字工厂' },
         { text: '云检测' },
@@ -98,7 +98,7 @@ function HomepageHeader() {
         <Col span={20} offset={1} style={{ borderLeft: '1px solid #666' }}>
           {/*循环item.children*/}
           {item.children.map((i, index) => (
-            <Button type="link" key={index}>
+            <Button type="link" href={i.href} key={index}>
               {i.text}
             </Button>
           ))}
