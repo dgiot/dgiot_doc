@@ -47,11 +47,23 @@ dgiot也将会提供开发工具、最新代码。
 | 联想服务器  |     √  |       |          |         |          |       √       |     
 
 # 配置要求
-|要求|配置|
-|---|---|
-|最低|一核1G|
-|商用|四核8G|
+|要求|配置| 镜像|
+|---|---|---|
+|最低|一核1G|centos 7|
+|商用|四核8G|https://share.weiyun.com/nwIG7HyW|
 
-centos 7镜像下载
-https://share.weiyun.com/nwIG7HyW
+#  小程序
+
++ 源码
+```erlang
+ https://github.com/dgiot/dgiot_wechat
+```
++ 体验网站
+  
+
+# 安卓app
+
++ 体验app
+  http://d.firim.pro/qpnw?release_id=62e293c30d81cc3dad62be60
+ 
     
