@@ -90,5 +90,9 @@
   "sidebar.docs.category.time_series": {
     "message": "时序数据",
     "description": "The label for category time_series in sidebar docs"
+  },
+  "sidebar.docs.category.Dlink": {
+    "message": "Dlink协议",
+    "description": "The label for category time_series in sidebar docs"
   }
 }

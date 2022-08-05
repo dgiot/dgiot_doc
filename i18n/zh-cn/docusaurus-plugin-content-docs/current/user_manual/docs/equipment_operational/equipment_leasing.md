@@ -30,8 +30,7 @@ sidebar_position: 1
 
 ## 设备信息采集(MQTT)
 
-订阅工业设备登录报文的Topic({设备编号}/BasicInformation)获取设备信息  
-将此Topic转成平台测试用Topic：thing/{产品ID}/{设备ID(编号)}/BasicInformation  
+订阅登录报文的Topic($dg/thing/{productId}/{deviceAddr}/firmware/report)获取设备信息   
 使用设备编号即设备地址作为唯一标识  
 登录报文
 ```
@@ -56,8 +55,7 @@ sidebar_position: 1
 }
 ```
 
-订阅周期报文的Topic({设备编号}/PeriodicInformation)获取设备信息  
-将此Topic转成平台测试用Topic：thing/{产品ID}/{设备ID(编号)}/PeriodicInformation  
+订阅周期报文的Topic($dg/thing/{productId}/{deviceAddr}/properties/report)获取设备信息   
 周期报文  
 ```
 {
@@ -164,8 +162,8 @@ sidebar_position: 1
 ```
 通过获取经纬度在地图上进行标识，进行宏观以及微观的数量展示
 {
-    "Lon":11710.6737,
-    "Lat":3419.7984,
+    "Lon":12003.28182,
+    "Lat":3021.80238,
 }
 ```
 ![industry4.png](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/industry/industry4.png)
