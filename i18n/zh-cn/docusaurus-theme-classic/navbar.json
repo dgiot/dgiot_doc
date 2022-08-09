@@ -36,8 +36,16 @@
     "description": "Navbar item with label SmartVenue"
   },
   "item.label.DigitalFactory": {
-    "message": "数字工厂",
+    "message": "智慧工厂",
     "description": "Navbar item with label DigitalFactory"
+  },
+  "item.label.WisdomEnergy": {
+    "message": "智慧能源",
+    "description": "Navbar item with label WisdomEnergy"
+  },
+  "item.label.IndustryBrain": {
+    "message": "产业大脑",
+    "description": "Navbar item with label IndustryBrain"
   },
   "item.label.CloudDetection": {
     "message": "云检测",

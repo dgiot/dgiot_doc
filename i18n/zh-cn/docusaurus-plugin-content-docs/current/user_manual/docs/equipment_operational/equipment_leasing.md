@@ -43,8 +43,8 @@ sidebar_position: 1
     "LearnedLayer":0,
     "SelfLearned":0,
     "SelfAdjust":0,
-    "Lon":11710.6737,
-    "Lat":3419.7984,
+    "Lon":12003.28182,
+     "Lat":3021.80238,
     "SerialNo":"20115275",
     "CtrlSerialNo":"202007023288",
     "MDSerialNo":"22222222",
@@ -236,7 +236,7 @@ sidebar_position: 1
 "disabledOn": "",
 "falseValue": " 0"
 ```
-#### 开关机控制
+#### 开关机延时控制
 ```markdown
 "name": "data.profile.PowerOffDelay",
 "size": "",

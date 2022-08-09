@@ -35,8 +35,8 @@
     "message": "智慧园区",
     "description": "The label for category 智慧园区 in sidebar docs"
   },
-  "sidebar.docs.category.数字工厂": {
-    "message": "数字工厂",
+  "sidebar.docs.category.智慧工厂": {
+    "message": "智慧工厂",
     "description": "The label for category 数字工厂 in sidebar docs"
   },
   "sidebar.docs.category.云检测": {
