@@ -1,6 +1,6 @@
 ---
 title: 能耗电表-正泰
-sidebar_position: 6
+sidebar_position: 11
 
 ---
 
@@ -12,7 +12,7 @@ sidebar_position: 6
 
 &emsp;&emsp;能耗系统包含了采集器以及其电气水表等设备，其中电表担当起基座的作用，智能电能表是全电子式电能表，带有硬件时钟和完备的
 通信接口，可靠性高、安全等级高以及大存储容量等特点。  
-&emsp;&emsp;&emsp;采集器实现以下功能:  
+&emsp;&emsp;&emsp;能耗电表实现以下功能:  
 
 * 园区用电量
 

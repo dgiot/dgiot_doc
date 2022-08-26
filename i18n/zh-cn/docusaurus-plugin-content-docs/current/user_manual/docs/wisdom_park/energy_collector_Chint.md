@@ -1,10 +1,10 @@
 ---
-title: 能耗集中器-正泰
-sidebar_position: 6
+title: 能耗采集器-正泰
+sidebar_position: 10
 
 ---
 
-# 能耗集中器-正泰
+# 能耗采集器-正泰
 
 ## 概述
 

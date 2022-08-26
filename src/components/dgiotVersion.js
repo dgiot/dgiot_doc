@@ -98,6 +98,7 @@ export default function dgiotVersion({ children, color }) {
               <Option value="开发环境">开发环境</Option>
               <Option value="dgiot手机端Android版">dgiot手机端Android版</Option>
               <Option value="dgiot_windows体验版">dgiot_windows体验版</Option>
+              <Option value="dgiot_app体验版">dgiot_app体验版</Option>
             </Select>
           </Form.Item>
           <Form.Item
