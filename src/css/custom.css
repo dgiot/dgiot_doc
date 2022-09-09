@@ -79,3 +79,16 @@ footer {
 .toggle_node_modules-\@docusaurus-theme-classic-lib-theme-ColorModeToggle-styles-module{
   display: none !important;
 }
+
+.a1 a{
+  color: #404040;
+}
+
+.a1 a.hover{
+  color: #40a9ff;
+}
+
+.td1 td{
+  width:240px;
+  valign:top;
+}

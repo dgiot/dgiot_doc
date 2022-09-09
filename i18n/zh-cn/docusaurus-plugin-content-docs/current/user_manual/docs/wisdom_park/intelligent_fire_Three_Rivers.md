@@ -25,7 +25,7 @@ sidebar_position: 4
 根据实时动态数据，系统定位异常现象地点，更高效精准的作战。
 
 ## 消防主机-泛海三江
-![sonbs广播终端](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/doc_ylb/sonbs/1.png)
+
 
 ## GBT 26875.1-2011标准协议主机火警信息
 通过发送者终端名称及密码进行查询  
@@ -39,8 +39,8 @@ c1 d9 ca b1 c8 ce ce f1 5a cd f5 d1 a1 cb a7 20 2d 20 ce d2 b0 ae cb fb 2e 6d 70
 
 ## dgiot平台展示效果
 ### 产品信息
-![产品信息](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/doc_ylb/sonbs/2.png)
+
 ### 设备信息
-![设备信息](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/doc_ylb/sonbs/3.png)
+
 ### 设备数据
-![设备数据](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/doc_ylb/sonbs/4.png)
+
