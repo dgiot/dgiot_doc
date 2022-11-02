@@ -2,7 +2,6 @@
 title: 水泵远程检测平台
 sidebar_position: 1
 ---
-
 # 水泵远程检测平台
 
 ## 概述

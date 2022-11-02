@@ -11,8 +11,7 @@ sidebar_position: 20
 ### 产品介绍 
 
 &emsp;&emsp;智慧广播也称为IP网络广播/数字网络广播，是一套基于UDP/IP网络的纯数字化音频广播系统  
-智慧广播实现以下功能:  
-
+&emsp;&emsp;&emsp;智慧广播实现以下功能:
 * 实时广播歌单
 * 播放状态
 
@@ -28,19 +27,19 @@ sidebar_position: 20
 ![sonbs广播终端](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/doc_ylb/sonbs/1.png)
 
 ## UDP/IP协议获取信息
-通过发送者终端名称及密码进行查询
+通过发送者终端名称及密码进行查询  
 
 设备信息测试(部分内容)
 
 ```markdown
 d4 da cf df 
-c1 d9 ca b1 c8 ce ce f1 3a cd f5 d0 a1 cb a7 20 2d 20 ce d2 b0 ae cb fb 2e 6d 70 33
+c1 d9 ca b1 c8 ce ce f1 5a cd f5 d1 a1 cb a7 20 2d 20 ce d2 b0 ae cb fb 2e 6d 70 33
 ```
 
 ## dgiot平台展示效果
-产品信息
+### 产品信息
 ![产品信息](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/doc_ylb/sonbs/2.png)
-设备信息
+### 设备信息
 ![设备信息](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/doc_ylb/sonbs/3.png)
-设备数据
+### 设备数据
 ![设备数据](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/doc_ylb/sonbs/4.png)

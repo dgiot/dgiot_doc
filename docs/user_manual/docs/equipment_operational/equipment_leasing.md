@@ -236,7 +236,7 @@ sidebar_position: 1
 "disabledOn": "",
 "falseValue": " 0"
 ```
-#### 开关机控制
+#### 开关机延时控制
 ```markdown
 "name": "data.profile.PowerOffDelay",
 "size": "",

@@ -9,7 +9,7 @@ sidebar_position: 5
 [腾讯云](https://cloud.tencent.com/)
 [阿里云](https://www.aliyun.com/)
 
-#### 2.复制粘贴网址 https://gitee.com/dgiiot/dgiot 进入DG-IOT开源物联网平台
+#### 2.复制粘贴网址 https://gitee.com/dgiiot/dgiot 进入dgiot开源物联网平台
 ![2.png](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/shuwa_tech/zh/manual/cloud/bushu/2.png)
 
 #### 3.将页面向下滑至一键部署处，复制此行代码

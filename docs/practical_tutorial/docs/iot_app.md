@@ -1,10 +1,8 @@
-  ---
-  title: 电表接入
-  sidebar_position: 1
-  ---
-     
-      
- #  用户场景
+---
+title: 电表接入
+sidebar_position: 1
+---
+#  用户场景
  从用户到设备，主要需要解决如下几个问题：
  + 人与设备的关系，User基于流动性，权限系统里一般不会直接绑定User与Device的权限关系，中间会通过Department(Role)来间接绑定ACL
  + 设备与设备的关系，设备与设备之间有可能存在真实的关系，例如DTU与Meter，也可能只有一种虚拟关系，例如Group与DTU，属于因工程需要，临时拉群

@@ -17,7 +17,7 @@ sidebar_position: 2
 ![baiduyun2.png](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/shuwa_tech/zh/wiki/baiduyun/baiduyun2.png)
 
 
-#### 2.一键部署脚本获取路径： https://gitee.com/dgiiot/dgiot 进入DG-IOT开源物联网平台
+#### 2.一键部署脚本获取路径： https://doc.dgiotcloud.cn/docs/product_doc/ 进入dgiot开源物联网平台
 
 #### 3.页面下滑至一键部署处，复制如下代码
 ```
@@ -26,7 +26,7 @@ wget -qO dgiot_install.sh https://gitee.com/dgiiot/dgiot/raw/master/dgiot_instal
 -d （域名  可选配置，正式商用建议配置域名，默认使用云服务器公网IP地址访问）
 -s （版本号 可选配置，指定版本号 例：-s dgiot_156，默认是最新版本）
 
-[版本列表链接](https://gitee.com/dgiiot/dgiot/wikis/%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2/%E7%89%88%E6%9C%AC%E5%88%97%E8%A1%A8)
+[版本列表链接](https://doc.dgiotcloud.cn/docs/product_doc/)
 
 #### 4.登录百度云服务器，进入页面，将复制的代码粘贴后回车，等待脚本安装，此时间大约需要30分钟，请耐心等待
 ![baiduyun3.png](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/shuwa_tech/zh/wiki/baiduyun/baiduyun3.png)
