@@ -1,6 +1,6 @@
 ---
 title: 页面消息路由
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # 前端消息路由框架

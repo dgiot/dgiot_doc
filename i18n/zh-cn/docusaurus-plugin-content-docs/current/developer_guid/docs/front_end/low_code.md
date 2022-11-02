@@ -1,6 +1,6 @@
 ---
 title: 低代码
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 dgiot引入百度amis低代码框架的方式有两种
@@ -83,3 +83,4 @@ dgiot引入百度amis低代码框架的方式有两种
 
  
  [百度amis api](https://baidu.gitee.io/amis/zh-CN/docs/types/api)
+ 
