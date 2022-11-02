@@ -25,7 +25,9 @@ sidebar_position: 1
 |NodeType |NodeId|注释|
 |:----    |:-------  |--- |
 |counter |product_counter |产品数量|
-|counter |devcice_counter |设备数量|
+|counter |device_counter |设备数量|
+|counter |online_device_counter |在线设备数|
+|counter |offline_device_counter |离线设备数|
 
 ### counter节点
   counter节点是对dgiot某一类数据的统计值
