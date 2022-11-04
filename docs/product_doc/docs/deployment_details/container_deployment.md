@@ -27,7 +27,7 @@ sudo systemctl enable docker
 ```shell
 docker pull dgiot/dgiot:4.4.5
 ```
-![输入图片说明](https://images.gitee.com/uploads/images/2022/0408/112818_e51b92bf_10541338.png "屏幕截图.png")
+![输入图片说明](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/image_deployment/container.png)
 
 #### 运行dgiot镜像（4.4.5）
 ```shell

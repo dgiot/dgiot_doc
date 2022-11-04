@@ -1,5 +1,5 @@
 ---
-title: 数字工厂EMS系统
+title: 数字工厂
 sidebar_position: 2
 ---
 

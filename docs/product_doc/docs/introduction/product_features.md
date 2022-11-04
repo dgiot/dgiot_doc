@@ -1,6 +1,6 @@
 ---
-title: 产品功能
-sidebar_position: 1
+title: 产品简介
+sidebar_position: 2
 ---
 
 dgiot物联网平台主要提供了设备接入、设备管理、规则引擎等能力，为各类IoT场景和行业开发者赋能。

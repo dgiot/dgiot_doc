@@ -3,7 +3,7 @@ import styles from './styles.module.css'
 import { Col, Row, Card, Button, Divider } from 'antd'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 // 获取路由导航
-// 1. 打开 https://doc.dgiotcloud.cn/docs/product_doc/docs/deployment_details/system_deployment/
+// 1. 打开 https://doc.dgiotcloud.cn/docs/product_doc/docs/deployment_details/index/
 // 2. 获取父节点的数据
 // todo: 需要获取节点路径并在link中添加
 // let nav = []

@@ -5,7 +5,7 @@ sidebar_position: 9
 
 ## TLS证书
 1，一键部署
-[参考部署详情](https://doc.dgiotcloud.cn/docs/product_doc/docs/deployment_details/system_deployment/)
+[参考部署详情](https://doc.dgiotcloud.cn/docs/product_doc/docs/deployment_details/index)
 
 2，在服务器上可以找到TSL证书如下：
 ![找到TSL证书](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/image_deployment/certificate1.png)
@@ -21,5 +21,6 @@ mqtt.fx 1.5验证
 注：
 + 使用证书后，设备上报后的端口号为8883.
 + 设备连接时关闭“SSL Secure”
+
 + 重启通道
 + 域名证书放需要到执行命令的同一目录下

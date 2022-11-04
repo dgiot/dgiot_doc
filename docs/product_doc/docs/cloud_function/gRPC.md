@@ -3,12 +3,12 @@ title: gRPC
 sidebar_position: 1
 ---
 
-## ¼òÊö
+## ç®€è¿°
 
-- »ùÓÚgRPC½øĞĞ¿ç·şÎñ¡¢¿ç±à³ÌÓïÑÔµÄÄÜÁ¦À©Õ¹
-- ¿ÉÒÔ½«Ô¶³ÌÎ¢·şÎñµÄÄÜÁ¦·µ»Ø¸ødgiot
+- åŸºäºgRPCè¿›è¡Œè·¨æœåŠ¡ã€è·¨ç¼–ç¨‹è¯­è¨€çš„èƒ½åŠ›æ‰©å±•
+- å¯ä»¥å°†è¿œç¨‹å¾®æœåŠ¡çš„èƒ½åŠ›è¿”å›ç»™dgiot
 
-## ¼Ü¹¹
+## æ¶æ„
 
 ```
 dgiot                                      Third-party Runtime
@@ -21,20 +21,20 @@ dgiot                                      Third-party Runtime
 +========================+                 +========+==========+
 ```
 
-## Ê¹ÓÃ
+## ä½¿ç”¨
 
 ### gRPC service
 
 See: `priv/protos/exhook.proto`
 
-## gRPCÍÆ¼ö¿ò¼Ü
+## gRPCæ¨èæ¡†æ¶
 
 See: https://github.com/grpc-ecosystem/awesome-grpc
 
-## ²Î¿¼
+## å‚è€ƒ
 
 - [grpcbox](https://github.com/tsloughter/grpcbox)
 
-## À©Õ¹¹ÜÀí
-ÓÃ»§¿É¸ù¾İĞèÇóĞÂÔöAPI½Ó¿Ú²¢½øĞĞÔÚÏßÉè¼ÆºÍ±àÂë.
-![ÍØÕ¹±à³Ì.png](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/shuwa_tech/zh/product/dgiot/function/exproto/%E6%8B%93%E5%B1%95%E7%BC%96%E7%A8%8B.png)
+## æ‰©å±•ç®¡ç†
+ç”¨æˆ·å¯æ ¹æ®éœ€æ±‚æ–°å¢APIæ¥å£å¹¶è¿›è¡Œåœ¨çº¿è®¾è®¡å’Œç¼–ç .
+![æ‹“å±•ç¼–ç¨‹.png](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/shuwa_tech/zh/product/dgiot/function/exproto/%E6%8B%93%E5%B1%95%E7%BC%96%E7%A8%8B.png)
