@@ -28,7 +28,7 @@ http://127.0.0.1:5080/dgiotproxy/[keypath]/[otherpath]
 
 则返回反向代理路径结果
 
-http://www.iotn2n.com/[otherpath]
+http://www.dgiotcloud.cn/[otherpath]
 
 # 爬虫代理
 

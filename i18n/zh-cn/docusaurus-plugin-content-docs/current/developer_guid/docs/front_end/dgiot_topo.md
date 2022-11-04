@@ -1,6 +1,6 @@
 ---
-title: 低代码框架
-sidebar_position: 1
+title: 组态大屏
+sidebar_position: 2
 ---
 
 #  dgiot_topo

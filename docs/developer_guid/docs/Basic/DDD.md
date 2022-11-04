@@ -1,6 +1,6 @@
 ---
-title: 架构设计
-sidebar_position: 3
+title: DDD
+sidebar_position: 5
 ---
 
 
@@ -95,6 +95,5 @@ public class JpaUserRepository implements UserRepository {
     
 +   第五个阶段：前后端分离后对分层架构的影响。在前后端分离的项目中，表现层被完全的从后端剥离出来，后端只需要提供接口数据，如：RESTful , gRPC , Thrift , GraphQL 协议的后端接口。此时后端还是不是四层架构呢？这确实伴随着两条发展路线：一条是服务于前端的后端模式（BFF）。另一条是基于聚合对象的接口模式。它们的区别在于 BFF 频繁变化，后者不会因为前端频繁变化而变化。
     
-
 
 
