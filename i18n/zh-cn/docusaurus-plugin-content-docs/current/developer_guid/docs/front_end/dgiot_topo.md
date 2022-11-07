@@ -2,6 +2,9 @@
 title: 组态大屏
 sidebar_position: 2
 ---
+ 
+ 拖拽式整站低代码技术, 对标阿里的DataV
+![dgiot_lowcode.png](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/shuwa_tech/zh/frontend/dgiottopo/dgiot_lowcode.png)
 
 #  dgiot_topo
  ![dgiot_topo.png](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_doc/developer_guid/front_end/dgiot_topo.png)
