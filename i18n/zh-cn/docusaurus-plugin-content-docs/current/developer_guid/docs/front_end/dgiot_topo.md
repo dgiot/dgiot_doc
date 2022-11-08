@@ -22,18 +22,20 @@ sidebar_position: 1
 
 ## 视图节点
 
-|NodeType |NodeId|注释|组件类型|
-|:----    |:-------  |--- | --- |
-|counter |product_counter |产品数量| mqtt |
-|counter |device_counter |设备数量| mqtt |
-|counter |device_online_counter |在线设备数| mqtt |
-|counter |device_offline_counter |离线设备数| mqtt |
-|counter |device_poweron_counter |开机设备数| mqtt |
-|counter |device_poweroff_counter |关机设备数| mqtt |
-|pie |device_poweron_poweroff |设备开关机饼图| mqtt |
-|list |warning_list |告警列表| mqtt |
-|list |device_list  |设备列表| mqtt |
-|list |workorder_list  |工单列表| api |
+|NodeType |NodeId|注释|数据类型|组件类型| 图片地址|
+|:----    |:-------  |--- | --- | --- | --- |
+|counter |product_counter |产品数量| mqtt | vuecomponent| -|
+|counter |device_counter |设备数量| mqtt | vuecomponent| - |
+|counter |device_online_counter |在线设备数| mqtt | vuecomponent| -|
+|counter |device_offline_counter |离线设备数| mqtt | vuecomponent| -|
+|counter |device_poweron_counter |开机设备数| mqtt | vuecomponent| -|
+|counter |device_poweroff_counter |关机设备数| mqtt | vuecomponent| -|
+|pie |device_poweron_poweroff |设备开关机饼图| mqtt | vuecomponent| /dgiot_file/topo/png/turnonoffpie.png|
+|list |warning_list |告警列表| mqtt | vuecomponent| /dgiot_file/topo/png/warninglist.png|
+|list |device_list  |设备列表| mqtt | vuecomponent| /dgiot_file/topo/png/devicelist.png |
+|list |workorder_list  |工单列表| api | vuecomponent| /dgiot_file/topo/png/workorderlist.png |
+|liveboard |videoalive  |视频监控| api | vuecomponent| /dgiot_file/topo/png/videolive.png |
+|amisview | ${ViewId}  |低代码视图组件| api | amiscomponent| /dgiot_file/topo/png/amiscomponent.png |
 
 ### counter节点
   counter节点是对dgiot某一类数据的统计值
@@ -53,7 +55,7 @@ sidebar_position: 1
 
 ```json
   {
-  "lable":"产品数量",
+  "label":"产品数量",
   "value":10
   }
 ```
