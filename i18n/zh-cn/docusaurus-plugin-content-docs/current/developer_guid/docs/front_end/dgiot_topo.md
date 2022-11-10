@@ -168,6 +168,18 @@ sidebar_position: 1
 ```
 
 ## 低代码实时数据监听
+
+### crud 设备列表管理设计
+
+||设备名称 |设备地址|安装位置|在线离线情况|
+|---|:----    |:-------  |--- | --- |
+|className|dgiotdevicename |dgiotdevaddr|dgiotaddress|dgiotdevicestatus|
+
+```javascript
+document.getElementsByClassName("dgiotdevicename")
+          [1].getElementsByClassName("antd-PlainField")[0].innerHTML
+
+```
 ###  低代码配置规范说明
   - 低代码中设备管理的 设备名称 设备地址 安装位置 状态 必须以此为模板以便于能够进行一个实时数据的更新
    - ```json
@@ -240,16 +252,4 @@ Vue.prototype.$dgiotBus.$emit('mqttchange',{
 ```
 
 
-- 备注：无
 
-### crud 设备列表管理设计
-
-||设备名称 |设备地址|安装位置|在线离线情况|
-|---|:----    |:-------  |--- | --- |
-|className|dgiotdevicename |dgiotdevaddr|dgiotaddress|dgiotdevicestatus|
-
-```javascript
-document.getElementsByClassName("dgiotdevicename")
-          [1].getElementsByClassName("antd-PlainField")[0].innerHTML
-
-```
