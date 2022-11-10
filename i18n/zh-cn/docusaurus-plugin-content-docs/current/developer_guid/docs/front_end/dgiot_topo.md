@@ -225,10 +225,20 @@ sidebar_position: 1
   "changedevice":"${devaddr}", //将设备地址传递给前端，用来寻找是第几行的设备要更改 
   // 前端用 className = dgiotdevaddr 去遍历寻找到修改第几行
   "changetype":"dgiotdevicestatus", //要修改的类型 ,对应低代码设置的className
-  "value":"浙江省杭州市余杭区", //修改后的值
+  "value":"ONLINE", //修改后的值  ONLINE/OFFLINE
 }
 
 ```
+前端数据发送参考
+```javascript
+Vue.prototype.$dgiotBus.$emit('mqttchange',{
+  "changedevice":"860059050154125", 
+  "changetype":"dgiotdevicename", 
+  "value":"余杭区",
+})
+
+```
+
 
 - 备注：无
 
