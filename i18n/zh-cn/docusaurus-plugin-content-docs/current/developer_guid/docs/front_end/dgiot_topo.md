@@ -166,3 +166,80 @@ sidebar_position: 1
       ]
 }
 ```
+
+## 低代码实时数据监听
+###  低代码配置规范说明
+  - 低代码中设备管理的 设备名称 设备地址 安装位置 状态 必须以此为模板以便于能够进行一个实时数据的更新
+   - ```json
+   {
+  "type": "text",
+  "name": "name",
+  "label": "设备名称",
+  "className": "dgiotdevicename"
+   },
+   {
+  "type": "text",
+  "name": "devaddr",
+  "label": "设备地址",
+  "className": "dgiotdevaddr"
+   },
+   {
+  "type": "text",
+  "name": "address",
+  "label": "安装位置",
+  "className": "dgiotaddress"
+  },
+  {
+  "type": "mapping",
+  "map": {
+    "ONLINE": "<span class='label label-success'>在线</span>",
+    "OFFLINE": "<span class='label label-danger'>离线</span>"
+  },
+  "name": "status",
+  "label": "状态",
+  "className": "dgiotdevicestatus"
+  }
+
+   ```
+
+
+-  传参设计1 以设备地址为例
+
+```json
+"payload":{
+  "changedevice":"${devaddr}", //将设备地址传递给我，用来寻找是第几行的设备要更改
+  "changetype":"dgiotdevaddr", //要修改的类型 ,对应低代码设置的className
+  "value":"浙江省杭州市余杭区", //修改后的值
+}
+
+```
+-  传参设计2 以设备在线离线为例
+
+```html
+<!-- 前端变化参考 -->
+ <span class='label label-success'>在线</span>
+ <span class='label label-danger'>离线</span>
+ ```
+```json
+"payload":{
+  "changedevice":"${devaddr}", //将设备地址传递给前端，用来寻找是第几行的设备要更改 
+  // 前端用 className = dgiotdevaddr 去遍历寻找到修改第几行
+  "changetype":"dgiotdevicestatus", //要修改的类型 ,对应低代码设置的className
+  "value":"浙江省杭州市余杭区", //修改后的值
+}
+
+```
+
+- 备注：无
+
+### crud 设备列表管理设计
+
+||设备名称 |设备地址|安装位置|在线离线情况|
+|---|:----    |:-------  |--- | --- |
+|className|dgiotdevicename |dgiotdevaddr|dgiotaddress|dgiotdevicestatus|
+
+```javascript
+document.getElementsByClassName("dgiotdevicename")
+          [1].getElementsByClassName("antd-PlainField")[0].innerHTML
+
+```
