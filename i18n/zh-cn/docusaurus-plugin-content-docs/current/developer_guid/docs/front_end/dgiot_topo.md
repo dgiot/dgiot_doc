@@ -22,18 +22,20 @@ sidebar_position: 2
 
 ## 视图节点
 
-|NodeType |NodeId|注释|组件类型|
-|:----    |:-------  |--- | --- |
-|counter |product_counter |产品数量| mqtt |
-|counter |device_counter |设备数量| mqtt |
-|counter |device_online_counter |在线设备数| mqtt |
-|counter |device_offline_counter |离线设备数| mqtt |
-|counter |device_poweron_counter |开机设备数| mqtt |
-|counter |device_poweroff_counter |关机设备数| mqtt |
-|pie |device_poweron_poweroff |设备开关机饼图| mqtt |
-|list |warning_list |告警列表| mqtt |
-|list |device_list  |设备列表| mqtt |
-|list |workorder_list  |工单列表| api |
+|NodeType |NodeId|注释|数据类型|组件类型| 图片地址|
+|:----    |:-------  |--- | --- | --- | --- |
+|counter |product_counter |产品数量| mqtt | vuecomponent| -|
+|counter |device_counter |设备数量| mqtt | vuecomponent| - |
+|counter |device_online_counter |在线设备数| mqtt | vuecomponent| -|
+|counter |device_offline_counter |离线设备数| mqtt | vuecomponent| -|
+|counter |device_poweron_counter |开机设备数| mqtt | vuecomponent| -|
+|counter |device_poweroff_counter |关机设备数| mqtt | vuecomponent| -|
+|pie |device_poweron_poweroff |设备开关机饼图| mqtt | vuecomponent| /dgiot_file/topo/png/turnonoffpie.png|
+|list |warning_list |告警列表| mqtt | vuecomponent| /dgiot_file/topo/png/warninglist.png|
+|list |device_list  |设备列表| mqtt | vuecomponent| /dgiot_file/topo/png/devicelist.png |
+|list |workorder_list  |工单列表| api | vuecomponent| /dgiot_file/topo/png/workorderlist.png |
+|liveboard |videoalive  |视频监控| api | vuecomponent| /dgiot_file/topo/png/videolive.png |
+|amisview | ${ViewId}  |低代码视图组件| api | amiscomponent| /dgiot_file/topo/png/amiscomponent.png |
 
 ### counter节点
   counter节点是对dgiot某一类数据的统计值
@@ -53,7 +55,7 @@ sidebar_position: 2
 
 ```json
   {
-  "lable":"产品数量",
+  "label":"产品数量",
   "value":10
   }
 ```
@@ -164,3 +166,93 @@ sidebar_position: 2
       ]
 }
 ```
+<<<<<<< HEAD
+=======
+
+## 低代码实时数据监听
+
+### crud 设备列表管理设计
+
+||设备名称 |设备地址|安装位置|在线离线情况|
+|---|:----    |:-------  |--- | --- |
+|className|dgiotdevicename |dgiotdevaddr|dgiotaddress|dgiotdevicestatus|
+
+```javascript
+document.getElementsByClassName("dgiotdevicename")
+          [1].getElementsByClassName("antd-PlainField")[0].innerHTML
+
+```
+###  低代码配置规范说明
+  - 低代码中设备管理的 设备名称 设备地址 安装位置 状态 必须以此为模板以便于能够进行一个实时数据的更新
+   - ```json
+   {
+  "type": "text",
+  "name": "name",
+  "label": "设备名称",
+  "className": "dgiotdevicename"
+   },
+   {
+  "type": "text",
+  "name": "devaddr",
+  "label": "设备地址",
+  "className": "dgiotdevaddr"
+   },
+   {
+  "type": "text",
+  "name": "address",
+  "label": "安装位置",
+  "className": "dgiotaddress"
+  },
+  {
+  "type": "mapping",
+  "map": {
+    "ONLINE": "<span class='label label-success'>在线</span>",
+    "OFFLINE": "<span class='label label-danger'>离线</span>"
+  },
+  "name": "status",
+  "label": "状态",
+  "className": "dgiotdevicestatus"
+  }
+
+   ```
+
+
+-  传参设计1 以设备地址为例
+
+```json
+"payload":{
+  "changedevice":"${devaddr}", //将设备地址传递给我，用来寻找是第几行的设备要更改
+  "changetype":"dgiotdevaddr", //要修改的类型 ,对应低代码设置的className
+  "value":"浙江省杭州市余杭区", //修改后的值
+}
+
+```
+-  传参设计2 以设备在线离线为例
+
+```html
+<!-- 前端变化参考 -->
+ <span class='label label-success'>在线</span>
+ <span class='label label-danger'>离线</span>
+ ```
+```json
+"payload":{
+  "changedevice":"${devaddr}", //将设备地址传递给前端，用来寻找是第几行的设备要更改 
+  // 前端用 className = dgiotdevaddr 去遍历寻找到修改第几行
+  "changetype":"dgiotdevicestatus", //要修改的类型 ,对应低代码设置的className
+  "value":"ONLINE", //修改后的值  ONLINE/OFFLINE
+}
+
+```
+前端数据发送参考
+```javascript
+Vue.prototype.$dgiotBus.$emit('mqttchange',{
+  "changedevice":"860059050154125", 
+  "changetype":"dgiotdevicename", 
+  "value":"余杭区",
+})
+
+```
+
+
+
+>>>>>>> 30674b11ae20c7e243cc3e029df784a05d8db532
