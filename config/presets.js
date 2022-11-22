@@ -10,6 +10,10 @@ module.exports = [
         ignorePatterns: ['/tags/**'],
         filename: 'sitemap.xml',
       },
+      gtag: {
+        trackingID: 'G-226F0LR9KE',
+        anonymizeIP: true,
+      },
       googleAnalytics: {
         trackingID: 'UA-141789564-1',
         anonymizeIP: true,

@@ -1,6 +1,6 @@
 ---
 title: 中性设置
-sidebar_position: 6
+sidebar_position: 5
 ---
 
 ## logo

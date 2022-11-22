@@ -10,8 +10,8 @@ sidebar_position: 11
 ```
 %% 初始化池子
 handle_init(State) ->
-    shuwa_parse:subscribe(<<"Device">>, post),
-    shuwa_parse:subscribe(<<"Device/*">>, post),
+    dgiot_parse:subscribe(<<"Device">>, post),
+    dgiot_parse:subscribe(<<"Device/*">>, post),
     {ok, State}.
 
 handle_message({sync_parse, Args}, State) ->
@@ -25,18 +25,18 @@ handle_message({sync_parse, Args}, State) ->
 parse库修改同步到ets缓存 <br/>	
 parse开启livequery<br/>	
 编辑
-vim /data/shuwa_parse_server/script/config.json <br/>	
+vim /data/dgiot_parse_server/script/config.json <br/>	
 修改 **app** 下 **liveQuery** 添加需要同步的表 <br/>	
 ![](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/shuwa_tech/zh/blog/study/parse/livequery_config.png)
 
 登录获取SessionToken
 ```
-shuwa_parse_handler:login_by_account(UserName, Password).
+dgdiot_parse_handler:login_by_account(UserName, Password).
 {ok,#{<<"sessionToken">> => <<"r:af99fafcfebbcfe04770e74ca2646b11">>}}
 ```
 shuwa_livequery订阅Device表
 ```
- shuwa_livequery:subscribe(<<"r:af99fafcfebbcfe04770e74ca2646b11">>, <<"Device">>, #{}),
+ dgiot_livequery:subscribe(<<"r:af99fafcfebbcfe04770e74ca2646b11">>, <<"Device">>, #{}),
 ```
 
 ```

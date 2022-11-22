@@ -1,6 +1,6 @@
 ---
-title: 安装部署
-sidebar_position: 5
+title: 一键部署
+sidebar_position: 6
 ---
 
 ## 安装部署
