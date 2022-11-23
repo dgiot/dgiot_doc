@@ -35,6 +35,12 @@ sidebar_position: 1
 |list |device_list  |设备列表| mqtt | vuecomponent| /dgiot_file/topo/png/devicelist.png |
 |list |workorder_list  |工单列表| api | vuecomponent| /dgiot_file/topo/png/workorderlist.png |
 |liveboard |videoalive  |视频监控| api | vuecomponent| /dgiot_file/topo/png/videolive.png |
+|map |baidumap  |百度地图| api | vuecomponent| /dgiot_file/topo/png/baidumap.png |
+|count |all_countvalue  |基本数据统计卡片组| api | vuecomponent| /dgiot_file/topo/png/countvalue.png |
+|count |product_count  |产品数量| api | vuecomponent| /dgiot_file/topo/png/product_count.png |
+|count |device_count  |设备数量| api | vuecomponent| /dgiot_file/topo/png/device_count.png |
+|count |warning_count  |告警数量| api | vuecomponent| /dgiot_file/topo/png/warning_count.png |
+|count |order_count  |工单数量| api | vuecomponent| /dgiot_file/topo/png/order_count.png |
 |amisview | ${ViewId}  |低代码视图组件| api | amiscomponent| /dgiot_file/topo/png/amiscomponent.png |
 
 ### counter节点
