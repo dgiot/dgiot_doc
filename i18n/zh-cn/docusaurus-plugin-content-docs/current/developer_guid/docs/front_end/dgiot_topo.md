@@ -44,7 +44,7 @@ sidebar_position: 1
 |amisview | ${ViewId}  |低代码视图组件| api | amiscomponent| /dgiot_file/topo/png/amiscomponent.png |
 
 ### counter节点
-  counter节点是对dgiot某一类数据的统计值
+  counter节点是对dgiot某一类数据的统计值，该数值通过mqtt 连接实时获取
 - topic
   
   $dg/user/topo/${sessionToken}/counter/${NodeId}/report
@@ -172,7 +172,16 @@ sidebar_position: 1
       ]
 }
 ```
-
+### count节点
+  count节点是对dgiot某一类数据的统计值,该数值通过api 接口请求获取
+- 注意事项: 该视图设置时跳转路径为配置的低代码路由路径
+  - 例如： 设备管理菜单管理路由配置路径为 /amis/View/5das4ffs44,即配置跳转路径就为 /amis/View/5das4ffs44
+### amisview节点
+     amisview节点是首页大屏中通过请求低代码页面进行渲染的节点
+  - 注意事项: 用户需设置该节点的位置 大小和对应绑定的低代码表单   
+### map节点
+    map节点是首页大屏中用来展示设备地图的节点
+  - 注意事项: 用户需设置该节点的位置,大小
 ## 低代码实时数据监听
 
 ### crud 设备列表管理设计
