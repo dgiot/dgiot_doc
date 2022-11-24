@@ -176,6 +176,29 @@ sidebar_position: 1
   count节点是对dgiot某一类数据的统计值,该数值通过api 接口请求获取
 - 注意事项: 该视图设置时跳转路径为配置的低代码路由路径
   - 例如： 设备管理菜单管理路由配置路径为 /amis/View/5das4ffs44,即配置跳转路径就为 /amis/View/5das4ffs44
+- 数据样例
+```json
+// 样例1
+ {
+        name: "产品数量", //名称
+        number: 20,  //总数
+        finename: "正常", 
+        finenumber: 20,
+        badname: "停用",
+        badnumber: 0,
+ }
+
+ //样例2
+ {
+        name: "设备数量", //名称
+        number: 15,  //总数
+        finename: "在线", 
+        finenumber: 10,
+        badname: "离线",
+        badnumber: 5,
+ }
+
+````
 ### amisview节点
      amisview节点是首页大屏中通过请求低代码页面进行渲染的节点
   - 注意事项: 用户需设置该节点的位置 大小和对应绑定的低代码表单   

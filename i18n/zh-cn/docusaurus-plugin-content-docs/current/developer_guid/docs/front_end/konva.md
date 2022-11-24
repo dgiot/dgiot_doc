@@ -115,6 +115,11 @@ dgiotThing 为物模型的处理函数
   ...
 }
 ```
+- 测试样例数据
+
+```javascript
+{'payloadString':{'konva':[{'id':'ace37d7d18','text':'35','type':'text'}]}}
+```
 ##### 数据更新
 
 #### ackthing 
