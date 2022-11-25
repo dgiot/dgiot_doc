@@ -1,5 +1,6 @@
 ---
-title: 容器部署 sidebar_position: 11
+title: 容器部署 
+sidebar_position: 11
 ---
 
 # docker编译
@@ -68,7 +69,7 @@ docker pull dgiot/dgiot_db:4.7.1
 ```
 ![输入图片说明](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/image_deployment/container.png)
 
-####镜像运行顺序 dgiot_dashboard > dgiot_db > dgiot_edge
+#### 镜像运行顺序 dgiot_dashboard > dgiot_db > dgiot_edge
 #### 运行dgiot_dashboard镜像（4.7.1）
 ```shell
 docker run --env DOMAIN_NAME={输入你的域名} -itd --net docker-dgiot --ip 173.173.0.10 --privileged -p 80:80 -p 1337:1337 --hostname dgiot_dashboard dgiot/dgiot_dashboard:4.7.1 init
