@@ -6,10 +6,12 @@ sidebar_position: 1
 ## 平台介绍
 <table >
     <tr style={{border : 'none'}}>
+        <td style={{border : 'none'}}> <a href="https://www.bilibili.com/video/BV1Wg411W7cd/?share_source=copy_web"><img width="216px" src="https://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_doc/doc%E8%A7%86%E9%A2%91%E5%9B%BE%E7%89%87/%E5%AE%9E%E6%88%98%E6%95%99%E7%A8%8B/7.png" /></a></td>
         <td style={{border : 'none'}}> <a href="https://www.bilibili.com/video/BV1yP411V7k7?spm_id_from=333.999.0.0"><img width="216px" src="http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_doc/doc%E8%A7%86%E9%A2%91%E5%9B%BE%E7%89%87/%E5%B9%B3%E5%8F%B0%E4%BB%8B%E7%BB%8D/1.jpg" /></a></td>
         <td style={{border : 'none'}}> <a href="https://www.bilibili.com/video/BV1GP4y1L7Sv?spm_id_from=333.999.0.0"><img width="216px" src="http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_doc/doc%E8%A7%86%E9%A2%91%E5%9B%BE%E7%89%87/%E5%B9%B3%E5%8F%B0%E4%BB%8B%E7%BB%8D/2.jpg" /></a></td>
     </tr>
     <tr class="td1" valign="top" style={{border : 'none',background : '#fff'}}>
+        <td class="a1" style={{border : 'none'}}> <a href="https://www.bilibili.com/video/BV1Wg411W7cd/?share_source=copy_web" title="陈教授专业讲解DGIOT开源物联网">陈教授专业讲解DGIOT开源物联网</a></td>
         <td class="a1" style={{border : 'none'}}> <a href="https://www.bilibili.com/video/BV1yP411V7k7?spm_id_from=333.999.0.0" title="DG-IoT平台简介及业务架构">DG-IoT平台简介及业务架构</a></td>
         <td class="a1" style={{border : 'none'}}> <a href="https://www.bilibili.com/video/BV1GP4y1L7Sv?spm_id_from=333.999.0.0" title="DG-IoT平台业务架构详细讲解">DG-IoT平台业务架构详细讲解</a></td>
      </tr>
