@@ -59,6 +59,11 @@ const sidebars = {
                     dirName: 'developer_guid/docs'
                 }
             ],
+        },
+        {
+            type: 'doc',
+            id:'news',
+            label: '最新动态',
         }
     ],
 };

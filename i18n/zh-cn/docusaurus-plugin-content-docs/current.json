@@ -27,6 +27,10 @@
     "message": "实战教程",
     "description": "The label for category practical_tutorial in sidebar docs"
   },
+  "sidebar.docs.category.news": {
+    "message": "最新动态",
+    "description": "The label for category news in sidebar docs"
+  },
   "sidebar.docs.category.设备运维": {
     "message": "设备运维",
     "description": "The label for category 设备运维 in sidebar docs"
