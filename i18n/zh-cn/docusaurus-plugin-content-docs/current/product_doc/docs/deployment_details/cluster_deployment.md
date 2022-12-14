@@ -1,6 +1,6 @@
 ---
 title: 集群部署
-sidebar_position: 14
+sidebar_position: 15
 ---
 ##dgiot集群部署
 ## 基础环境部署

@@ -1,6 +1,6 @@
 ---
 title: 部署须知
-sidebar_position: 12
+sidebar_position: 13
 ---
 
 ## 数据库说明

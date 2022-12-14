@@ -1,6 +1,6 @@
 ---
 title: 本地部署
-sidebar_position: 10
+sidebar_position: 11
 ---
 
 ## windows部署

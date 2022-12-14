@@ -1,6 +1,6 @@
 ---
 title: 证书安装
-sidebar_position: 9
+sidebar_position: 10
 ---
 
 ## TLS证书

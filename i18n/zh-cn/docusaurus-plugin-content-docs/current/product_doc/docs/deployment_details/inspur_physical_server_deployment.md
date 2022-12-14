@@ -1,6 +1,6 @@
 ---
 title: 浪潮物理服务器部署
-sidebar_position: 8
+sidebar_position: 9
 ---
 
 ### 1.创建阵列
