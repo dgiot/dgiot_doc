@@ -9,11 +9,7 @@ import DgiotVersion from '@site/src/components/dgiotVersion';
 
 迪格云(dgiot)体验平台:prod.dgiotcloud.cn
 
-
-体验账号(开发者)：账号：dgiot_dev 密码：dgiot_dev   
-体验账号(运维者)：账号：dgiot_admin 密码：dgiot_admin
-
-部分体验账号无需填写账号密码，进入上述账号直接修改账号密码即可。
+体验账号无需填写账号密码。
 
 
 # 立即开始
