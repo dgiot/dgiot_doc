@@ -1,7 +1,9 @@
 ---
 title: Mqtt设备接入教程
-sidebar_position: 7
+sidebar_position: 8
 ---
+
+## 该教程适用于v4.7.0之后
 
 系统需要使用的一个软件：
 - MQTT X：MQTT X 是EMQ 开源的一款跨平台 MQTT 5.0 客户端工具，它支持 macOS, Linux, Windows，并且支持 MQTT 消息格式转换。

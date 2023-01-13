@@ -1,5 +1,5 @@
 ---
-title: Mqtt设备接入教程
+title: Mqtt设备接入教程(适用v4.7.0后)
 sidebar_position: 7
 ---
 
