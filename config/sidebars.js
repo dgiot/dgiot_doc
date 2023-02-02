@@ -13,6 +13,11 @@ const sidebars = {
     // 手动定义目录
     docs: [
         {
+            type: 'doc',
+            id:'news',
+            label: '最新动态',
+        },
+        {
             type: 'category',
             label: 'user_manual',
             collapsible: true,
@@ -59,11 +64,6 @@ const sidebars = {
                     dirName: 'developer_guid/docs'
                 }
             ],
-        },
-        {
-            type: 'doc',
-            id:'news',
-            label: '最新动态',
         }
     ],
 };
