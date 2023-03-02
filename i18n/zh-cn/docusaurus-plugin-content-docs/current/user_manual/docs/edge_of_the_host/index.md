@@ -19,8 +19,35 @@ sidebar_position: 1
 MAC地址查询扫描器下载可能会出现**"无法安全下载"**，属于正常现象，选择保留即可；
 Xshell(方便远程)下载如有其他渠道请自行下载，如有其他远程工具请忽视Xshell下载。
 
+## 方法一：WIFI连接
 
-## 操作步骤：
+###  1.电脑打开热点
+
+#### 电脑找到设置
+
+<img width="40%" src="http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/doc_ylb/edge_connect/1.png" />
+
+#### 找到网络和Internet
+
+<img width="100%" src="http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/doc_ylb/edge_connect/2.png" />
+
+#### 找到移动热点
+
+<img width="100%" src="http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/doc_ylb/edge_connect/3.png" />
+
+#### 开启热点
+
+<img width="100%" src="http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/doc_ylb/edge_connect/4.png" />
+
+###  2.等待主机连接
+
+<img width="100%" src="http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/doc_ylb/edge_connect/5.png" />
+
+###  3.访问边缘主机
+
+<img width="100%" src="http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/doc_ylb/edge_connect/6.png" />
+
+## 方法二：有线连接
 
 ###  1.查找边缘主机IP
 
@@ -36,7 +63,7 @@ Xshell(方便远程)下载如有其他渠道请自行下载，如有其他远程
 
 ### 2.根据扫描的IP登录dgiot
 
-<img width="80%" src="https://www.dgiotcloud.cn/wp-content/uploads/2022092809591030.png" />
+<img width="100%" src="https://www.dgiotcloud.cn/wp-content/uploads/2022092809591030.png" />
 
 
 **[小 迪 点评]**
