@@ -88,7 +88,23 @@ footer {
   color: #40a9ff;
 }
 
+.a2 a{
+  font-size: 20px;
+}
+
 .td1 td{
   width:240px;
   valign:top;
+}
+
+.td2 td{
+  width:113px;
+  valign:top;
+  border: none;
+}
+
+.td3 td{
+  width:300px;
+  valign:top;
+  border: none;
 }

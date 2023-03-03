@@ -13,7 +13,7 @@ sidebar_position: 8
 
 由于一键式部署要求纯操作系统环境，无需安装其他例如Nginx/Tengine+MySQL等软件，否则易和一键式部署冲突，如果已有相关应用，请联系微信群技术客服单独处理
 
-#### 2.一键部署脚本获取路径： https://doc.dgiotcloud.cn/docs/product_doc/ 进入dgiot开源物联网平台
+#### 2.一键部署脚本获取路径： [脚本获取](https://doc.dgiotcloud.cn/docs/product_doc/docs/deployment_details/system_deployment)
 
 #### 3.页面下滑至一键部署处，复制如下代码
 ```
@@ -22,7 +22,7 @@ wget -qO dgiot_install.sh https://gitee.com/dgiiot/dgiot/raw/master/dgiot_instal
 -d （域名  可选配置，正式商用建议配置域名，默认使用云服务器公网IP地址访问）
 -s （版本号 可选配置，指定版本号 例：-s dgiot_156，默认是最新版本）
 
-[版本列表链接](https://doc.dgiotcloud.cn/docs/product_doc/)
+[版本列表链接](https://doc.dgiotcloud.cn/docs/product_doc/docs/deployment_details/version_releases)
 
 #### 4.用户购买了云服务后，登录进入服务器实例页面，以腾讯云服务器为例：
 ![输入图片说明](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/image_deployment/tencent_cloud_lightweight1.png)
