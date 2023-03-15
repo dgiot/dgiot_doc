@@ -1,13 +1,98 @@
 ---
-title: 系统部署
+title: 一键部署
 sidebar_position: 1
 ---
 
 import DgiotVersion from '@site/src/components/dgiotVersion';
+import DgiotVersionApp from '@site/src/components/dgiotVersionApp';
 
 ## 平台体验
 
 迪格云(dgiot)体验平台:prod.dgiotcloud.cn
+
+<table >
+    <tr class="td3"  style={{border : 'none',background : '#fff'}}>
+        <td class="a2"> <a href="https://prod.dgiotcloud.cn/">智慧园区</a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/">智慧园区</a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/">智慧厕所</a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/">智慧水务</a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+    </tr>
+    <tr class="td3"  style={{border : 'none',background : '#fff'}}>
+        <td class="a2"> <a href="https://prod.dgiotcloud.cn/">智慧能源</a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/">智慧能耗管理系统</a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        </tr>
+    <tr class="td3"  style={{border : 'none',background : '#fff'}}>
+        <td class="a2"> <a href="https://prod.dgiotcloud.cn/">智能制造</a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/">数字工厂MES系统</a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        </tr>
+    <tr class="td3"  style={{border : 'none',background : '#fff'}}>
+        <td class="a2"> <a href="https://prod.dgiotcloud.cn/">智慧农业</a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/">智慧农业</a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        </tr>
+    <tr class="td3"  style={{border : 'none',background : '#fff'}}>
+        <td class="a2"> <a href="https://prod.dgiotcloud.cn/">环保监测</a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/">异味污染监测系统</a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        </tr>    
+    <tr class="td3"  style={{border : 'none',background : '#fff'}}>
+        <td class="a2"> <a href="https://prod.dgiotcloud.cn/">设备运维</a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/">工业设备租赁一体化运维平台</a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/">物联网卡管理</a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        </tr>    
+    <tr class="td3"  style={{border : 'none',background : '#fff'}}>
+        <td class="a2"> <a href="https://prod.dgiotcloud.cn/">智慧办公</a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/">米家智能</a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/">智慧办公</a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        </tr>    
+    <tr class="td3"  style={{border : 'none',background : '#fff'}}>
+        <td class="a2"> <a href="https://prod.dgiotcloud.cn/">云检测</a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/">水泵远程质量检测与质量对比系统</a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        </tr>    
+    <tr class="td3"  style={{border : 'none',background : '#fff'}}>
+        <td class="a2"> <a href="https://prod.dgiotcloud.cn/">3D数据可视化</a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/">3D数据可视化展示平台</a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
+        </tr>           
+</table>
 
 体验账号无需填写账号密码。
 
@@ -44,7 +129,6 @@ dgiot也将会提供开发工具、最新代码。
 | 阿里云     |     √  |       |          |         |          |   √           |  
 | 华为云     |     √   |       |          |         |          |     √         | 
 | 天翼云     |      √  |       |          |         |          |     √         | 
-| 移动云     |      √  |       |          |         |          |     √         | 
 | AWS云      |      |       |          |         |          |       √       |  
 | 微软云      |      |       |          |         |          |        √      |  
 | 谷歌云      |      |       |          |         |          |       √       |  
@@ -67,11 +151,11 @@ dgiot也将会提供开发工具、最新代码。
  https://github.com/dgiot/dgiot_wechat
 ```
 + 体验网站
-
+  
 
 # 安卓app
 
 + 体验app
-  http://d.firim.pro/qpnw?release_id=62e293c30d81cc3dad62be60
+  <DgiotVersionApp color="#25c2a0" title='输入您的电子邮箱以接收下载链接'>点击获取</DgiotVersionApp>
  
     
