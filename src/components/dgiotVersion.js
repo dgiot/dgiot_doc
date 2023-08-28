@@ -43,12 +43,15 @@ export default function dgiotVersion({ children, color }) {
   const onFinish = (values) => {
     from['dgiot-version'] = values.version
     from['your-email'] = values.email
+    from['your-phone'] = values.phone
+    from['your-name'] = values.name
+    from['your-job'] = values.job
     const formData = new FormData()
     Object.keys(from).forEach((key) => {
       formData.append(key, from[key])
     })
     axios({
-      url: 'https://www.dgiotcloud.cn/index.php?rest_route=/contact-form-7/v1/contact-forms/694/feedback',
+      url: 'https://www.dgiotcloud.cn/wp-json/contact-form-7/v1/contact-forms/694/feedback',
       method: 'post',
       data: formData,
       headers: {
@@ -77,7 +80,7 @@ export default function dgiotVersion({ children, color }) {
         destroyOnClose={true}
         onCancel={handleCancel}
         footer={null}
-        title="输入您的电子邮箱以接收下载链接"
+        title="请填写下面表单，我们会将下载地址发到您邮箱"
         visible={isModalVisible}
       >
         <Form
@@ -103,7 +106,7 @@ export default function dgiotVersion({ children, color }) {
           </Form.Item>
           <Form.Item
             name="email"
-            label="接受邮箱"
+            label="邮箱"
             rules={[
               {
                 type: 'email',
@@ -111,8 +114,32 @@ export default function dgiotVersion({ children, color }) {
               },
             ]}
           >
-            <Input />
+          <Input />
           </Form.Item>
+          <Form.Item
+             name="name"
+             label="姓名"
+            >
+            <Input />
+           </Form.Item>
+            <Form.Item
+              name="phone"
+              label="手机"
+                >
+              <Input />
+             </Form.Item>
+             <Form.Item
+              name="corporate"
+               label="公司"
+                >
+            <Input />
+            </Form.Item>
+             <Form.Item
+                 name="job"
+                 label="职位"
+                   >
+                 <Input />
+             </Form.Item>
           <Form.Item wrapperCol={{ ...layout.wrapperCol, offset: 4 }}>
             <Button type="primary" block htmlType="submit">
               提交
