@@ -46,6 +46,7 @@ export default function dgiotVersion({ children, color }) {
     from['your-phone'] = values.phone
     from['your-name'] = values.name
     from['your-job'] = values.job
+     from['your-comp'] = values.corporate
     const formData = new FormData()
     Object.keys(from).forEach((key) => {
       formData.append(key, from[key])
