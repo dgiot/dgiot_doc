@@ -58,10 +58,6 @@ module.exports = {
                     to: 'https://www.dgiotcloud.cn/category/product/%e6%99%ba%e6%85%a7%e8%83%bd%e6%ba%90/',
                 },
                 {
-                    label: 'IndustryBrain',
-                    to: 'https://www.dgiotcloud.cn/category/product/industrialbrain/',
-                },
-                {
                     label: 'CloudDetection',
                     to: 'http://www.dgiotcloud.cn/?cat=22',
                 },
