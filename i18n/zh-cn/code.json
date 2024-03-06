@@ -1,6 +1,7 @@
 {
-  "Dgiot helps developers quickly connect subsystems to achieve data aggregation with a few lines of code, and can also achieve common device access with zero code": {
-    "message": "DGIOT帮助开发者用简单的几行代码可以快速对接子系统实现数据汇聚，也可以零代码实现常见设备接入"
+  "dgiot.help": {
+    "message": "DGIOT帮助开发者用简单的几行代码可以快速对接子系统实现数据汇聚，也可以零代码实现常见设备接入",
+    "description": "Dgiot helps developers quickly connect subsystems to achieve data aggregation with a few lines of code, and can also achieve common device access with zero code"
   },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",
