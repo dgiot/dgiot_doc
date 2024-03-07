@@ -39,91 +39,91 @@ function HomepageHeader() {
 			   {
 					"text": "设备运维",
 					"content": "工业设备租赁一体化运维平台以数据为基础、以算法为支撑、以场景为导向，应用先进的实时大数据处理。",
-					"cover": "http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/Community.png",
+					"cover": "http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/logo/parse.png",
 					"href": "/docs/user_manual/docs/equipment_operational/equipment_leasing"
 				},
 				{
 					"text": "智慧园区",
-					"cover": "http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/Community.png",
+					"cover": "https://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_doc/index/Community.png",
 					"href": "/docs/user_manual/docs/equipment_operational/equipment_leasing"
 				},
 				{
 					"text": "数字工厂",
-					"cover": "http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/Community.png",
+					"cover": "https://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_doc/index/Community.png",
 					"href": "/docs/user_manual/docs/equipment_operational/equipment_leasing"
 				},
 				{
 					"text": "云检测",
-					"cover": "http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/Community.png",
+					"cover": "https://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_doc/index/Community.png",
 					"href": "/docs/user_manual/docs/equipment_operational/equipment_leasing"
 				},
 				{
-                					"text": "设备运维",
-                					"content": "工业设备租赁一体化运维平台以数据为基础、以算法为支撑、以场景为导向，应用先进的实时大数据处理。",
-                					"cover": "http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/Community.png",
-                					"href": "/docs/user_manual/docs/equipment_operational/equipment_leasing"
-                				},
-                				{
-                					"text": "智慧园区",
-                					"cover": "http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/Community.png",
-                					"href": "/docs/user_manual/docs/equipment_operational/equipment_leasing"
-                				},
-                				{
-                					"text": "数字工厂",
-                					"cover": "http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/Community.png",
-                					"href": "/docs/user_manual/docs/equipment_operational/equipment_leasing"
-                				},
-                				{
-                					"text": "云检测",
-                					"cover": "http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/Community.png",
-                					"href": "/docs/user_manual/docs/equipment_operational/equipment_leasing"
-                				},
-                				{
-                                					"text": "设备运维",
-                                					"content": "工业设备租赁一体化运维平台以数据为基础、以算法为支撑、以场景为导向，应用先进的实时大数据处理。",
-                                					"cover": "http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/Community.png",
-                                					"href": "/docs/user_manual/docs/equipment_operational/equipment_leasing"
-                                				},
-                                				{
-                                					"text": "智慧园区",
-                                					"cover": "http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/Community.png",
-                                					"href": "/docs/user_manual/docs/equipment_operational/equipment_leasing"
-                                				},
-                                				{
-                                					"text": "数字工厂",
-                                					"cover": "http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/Community.png",
-                                					"href": "/docs/user_manual/docs/equipment_operational/equipment_leasing"
-                                				},
-                                				{
-                                					"text": "云检测",
-                                					"cover": "http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/Community.png",
-                                					"href": "/docs/user_manual/docs/equipment_operational/equipment_leasing"
-                                				},
-                                				{
-                                                					"text": "设备运维",
-                                                					"content": "工业设备租赁一体化运维平台以数据为基础、以算法为支撑、以场景为导向，应用先进的实时大数据处理。",
-                                                					"cover": "http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/Community.png",
-                                                					"href": "/docs/user_manual/docs/equipment_operational/equipment_leasing"
-                                                				},
-                                                				{
-                                                					"text": "智慧园区",
-                                                					"cover": "http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/Community.png",
-                                                					"href": "/docs/user_manual/docs/equipment_operational/equipment_leasing"
-                                                				},
-                                                				{
-                                                					"text": "数字工厂",
-                                                					"cover": "http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/Community.png",
-                                                					"href": "/docs/user_manual/docs/equipment_operational/equipment_leasing"
-                                                				},
-                                                				{
-                                                					"text": "云检测",
-                                                					"cover": "http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_web/Community.png",
-                                                					"href": "/docs/user_manual/docs/equipment_operational/equipment_leasing"
-                                                				}
+                "text": "设备运维",
+                "content": "工业设备租赁一体化运维平台以数据为基础、以算法为支撑、以场景为导向，应用先进的实时大数据处理。",
+                "cover": "https://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_doc/index/Community.png",
+                "href": "/docs/user_manual/docs/equipment_operational/equipment_leasing"
+               },
+                {
+                    "text": "智慧园区",
+                    "cover": "https://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_doc/index/Community.png",
+                    "href": "/docs/user_manual/docs/equipment_operational/equipment_leasing"
+                },
+                {
+                    "text": "数字工厂",
+                    "cover": "https://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_doc/index/Community.png",
+                    "href": "/docs/user_manual/docs/equipment_operational/equipment_leasing"
+                },
+                {
+                    "text": "云检测",
+                    "cover": "https://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_doc/index/Community.png",
+                    "href": "/docs/user_manual/docs/equipment_operational/equipment_leasing"
+                },
+                {
+                    "text": "设备运维",
+                    "content": "工业设备租赁一体化运维平台以数据为基础、以算法为支撑、以场景为导向，应用先进的实时大数据处理。",
+                    "cover": "https://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_doc/index/Community.png",
+                    "href": "/docs/user_manual/docs/equipment_operational/equipment_leasing"
+                },
+                {
+                    "text": "智慧园区",
+                    "cover": "https://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_doc/index/Community.png",
+                    "href": "/docs/user_manual/docs/equipment_operational/equipment_leasing"
+                },
+                {
+                    "text": "数字工厂",
+                    "cover": "https://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_doc/index/Community.png",
+                    "href": "/docs/user_manual/docs/equipment_operational/equipment_leasing"
+                },
+                {
+                    "text": "云检测",
+                    "cover": "https://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_doc/index/Community.png",
+                    "href": "/docs/user_manual/docs/equipment_operational/equipment_leasing"
+                },
+                {
+                    "text": "设备运维",
+                    "content": "工业设备租赁一体化运维平台以数据为基础、以算法为支撑、以场景为导向，应用先进的实时大数据处理。",
+                    "cover": "https://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_doc/index/Community.png",
+                    "href": "/docs/user_manual/docs/equipment_operational/equipment_leasing"
+                },
+                {
+                    "text": "智慧园区",
+                    "cover": "https://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_doc/index/Community.png",
+                    "href": "/docs/user_manual/docs/equipment_operational/equipment_leasing"
+                },
+                {
+                    "text": "数字工厂",
+                    "cover": "https://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_doc/index/Community.png",
+                    "href": "/docs/user_manual/docs/equipment_operational/equipment_leasing"
+                },
+                {
+                    "text": "云检测",
+                    "cover": "https://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_doc/index/Community.png",
+                    "href": "/docs/user_manual/docs/equipment_operational/equipment_leasing"
+                }
 			]
 		}
-
 	]
+
 	// 维护时,只需维护该nav的数据
 	return nav.map((item, index) => (
 		<div style={{ display: "flex", flexWrap: "wrap" }}>
@@ -131,11 +131,16 @@ function HomepageHeader() {
          <Col key= {{index}} span={5} offset={1} style={{ border: '0px solid #666' }}>
            <a href={i.href} >
               <Card
-               hoverable={true}
-               key={index}
-               style={{border: '0px solid #666', margin: '0px 0px 10px 0px'}}
+                 hoverable={true}
+                 key={index}
+                 style={{border: '0px solid #666', margin: '0px 0px 10px 0px'}}
                >
-               <img alt="cover" href={i.href} src={i.cover} style={{height: '80%',width: '80%',objectFit: 'cover'}} />
+                <div>
+                   <center> <img alt="cover" href={i.href} src={i.cover} style={{margin: 'auto', height: '50%',width: '50%',objectFit: 'cover'}} /> </center>
+                   <center> <h2> 图片居中显示 </h2> </center>
+                   <center> <h3>工业设备租赁一体化运维平台以数据为基础、以算法为支撑、以场景为导向，应用先进的实时大数据处理 </h3> </center>
+                   <span></span>
+                  </div>
               </Card>
            </a>
          </Col>
