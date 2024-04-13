@@ -3,9 +3,6 @@ title: OPC采集通道
 sidebar_position: 7
 ---
 
-title: OPC采集通道
-sidebar_position: 7
----
 
 # OPCUA 协议简介
 
@@ -205,6 +202,129 @@ opc ua 定义了 8 种类型的节点
 * 订阅数据变化和订阅事件
 
 > 可以监控服务器数据的变化
+
+ ## OPC UA 的信息模型
+
+OPC UA 信息模型是节点的网络（Network of Node），或者称为结构化图（Graph），由节点（Node）和引用（Reference）组成，这种结构图称之为 OPC UA 的地址空间。地址空间以标准形式表示对象——地址空间中的模型元素被称为节点，对象及其组件在地址空间中表示为节点的集合，节点由属性描述并由引用相连接。OPC UA 建模其实就是建立节点以及节点间的引用。
+
+### 对象模型
+
+OPC UA 使用了对象作为过程系统表示数据和活动的基础。对象包含了变量，事件和方法，它们通过引用来互相连接。
+
+![OPC UA 对象模型](https://assets.emqx.com/images/313bb04eebc2beaacc6c359eba0e17d8.png?imageMogr2/thumbnail/1520x)
+
+### 节点模型
+
+![OPC UA 节点模型](https://assets.emqx.com/images/185c6a8d55d470c5e558bd3afd76a0ca.png?imageMogr2/thumbnail/1520x)
+
+* 属性（Attribute）用于描述节点，不同的节点类有不同的属性（属性集合）。节点类的定义中包括属性的定义，因此地址空间中不包括属性。
+* 引用（Reference）表示节点之间的关系。引用被定义为引用类型节点的实例，存在于地址空间中。
+* 节点模型的通用属性如下：
+
+| Name                 | Use | Data Type              | Description                                |
+| -------------------- | --- | ---------------------- | ------------------------------------------ |
+| **Attributes** |     |                        |                                            |
+| NodeId               | M   | NodeId                 | See 5.2.2                                  |
+| NodeClass            | M   | NodeClass              | See 5.2.3                                  |
+| BrowseName           | M   | QualifiedName          | See 5.2.4                                  |
+| DisplayName          | M   | LocalizedText          | See 5.2.5                                  |
+| Description          | O   | LocalizedText          | See 5.2.6                                  |
+| WhiteMask            | O   | AttributeWhiteMask     | See 5.2.7                                  |
+| UserWriteMask        | O   | AttributeWriteMask     | See 5.2.8                                  |
+| RolePermissions      | O   | RolePermissionsType[]  | See 5.2.9                                  |
+| UserRolePermissions  | O   | RolePermissionsType[]  | See 5.2.10                                 |
+| AccessRestrictions   | O   | AccessRestrictionsType | See 5.2.11                                 |
+| **References** |     |                        | No References specified for this NodeClass |
+
+### 引用模型
+
+包含引用的节点为源节点，被引用的节点称目标节点。引用的目标节点可以与源节点在同一个地址空间，也可以在另一个 OPC 服务器的地址空间，甚至是目标节点可以不存在。
+
+![OPC UA 引用模型](https://assets.emqx.com/images/3b484967bea36515325de244dda332bd.png?imageMogr2/thumbnail/1520x)
+
+### 节点类型
+
+在 OPC UA 中，最重要的节点类别是对象，变量和方法。
+
+* 对象节点，对象节点用于构成地址空间，不包含数据，使用变量为对象公开数值，对象节点可用于分组管理对象，变量或方法（变量和方法总属于一个对象）。
+* 变量节点，变量节点代表一个值，值的数据类型取决于变量，客户端可以对值进行读写和订阅。
+* 方法节点，方法节点代表服务器中一个有客户端调用并返回结果的方法，输入参数和输出结果以变量的形式作为方法节点的组成部分，客户端指定输入参数，调用后获得输出结果。
+
+## OPC UA 协议的工作原理
+
+硬件供应商支持 OPC UA 的方式有两种：在设备中嵌入 OPC UA 服务器，或在 PC 上提供软件，通过专用协议获取数据，并通过 OPC UA 将其公开给其他平台。一些中端和高端 PLC（如西门子 S71200/1500） 集成了 OPC UA 服务器，同时西门子还提供 WINCC 等软件，通过 OPC/OPC UA 间接向第三方提供来自其他设备的数据。
+
+![opc ua client and server](https://assets.emqx.com/images/e9398279706d0e493388a5c60fede41f.png?imageMogr2/thumbnail/1520x)
+
+数据通过 OPC UA 服务器公开后，可使用 OPC UA 协议规定的两种访问模式——请求/响应模式和发布/订阅模式进行访问。首先，客户端必须与服务器建立连接，连接建立后会在客户端和服务器之间创建一个会话通道。
+
+在请求/响应模式下，客户端应用程序可以通过会话通道向服务器请求一些标准服务，如：从节点读取原始数据、向节点写入数据、调用远程方法等。
+
+![request/response mode](https://assets.emqx.com/images/f7c47ebeb1f5da8bc6290b6b014b106e.png?imageMogr2/thumbnail/1520x)
+
+在发布/订阅模式下，每个客户端可以创建任意数量的服务器订阅，当服务器的节点数据发生变化时，通知消息会立即推送到客户端。
+
+![publish/subscribe mode](https://assets.emqx.com/images/16eedf2be88eb090746d9a7de6ad40e5.png?imageMogr2/thumbnail/1520x)
+
+一般来说，终端用户不必关注上述过程。他们只需要关心 OPC UA 服务器地址、用户登录策略、通信安全策略以及数据的访问地址。
+
+### OPC UA 服务器端点
+
+| **Protocol** | **Url**                            |
+| ------------------ | ---------------------------------------- |
+| OPC UA TCP         | `opc.tcp://localhost:4840/UADiscovery` |
+| OPC UA Websockets  | `opc.wss://localhost:443/UADiscovery`  |
+| OPC UA HTTPS       | `https://localhost:443/UADiscovery`    |
+
+### 用户验证方法
+
+1. Anonymous
+2. Username & Password
+3. Certificate
+
+### 安全模式
+
+1. None
+2. Sign
+3. Sign & Encrypt
+
+### 安全策略
+
+1. Basic128Rsa15
+2. Basic256
+3. Basic256Sha256
+4. Aes128Sha256RsaOaep
+5. Aes256Sha256RsaPass
+
+### 节点地址
+
+| **Address type** | **Address** |
+| ---------------------- | ----------------- |
+| Byte string            | ns=x;b=           |
+| GUID                   | ns=x;g=           |
+| Int                    | ns=x;i=x          |
+| String                 | ns=x;s=           |
+
+## OPC UA 与 MQTT 的结合
+
+MQTT（Message Queuing Telemetry Transport）是一种为物联网设备和应用程序设计的消息协议，采用发布与订阅模型，具有轻量、高效、可靠，支持实时通讯等优点。 MQTT 非常适合资源受限的环境，特别是需要高效使用电力和带宽的场景。
+
+业界在 MQTT 3.1.1 的基础上建立了名为 SparkplugB 的工业物联网数据规范，在保证灵活和效率的前提下，提供了基础的数据统一建模能力。得益于 MQTT 协议的优秀设计，SparkPlugB 提供了良好的网络状态感知能力，并且能够为设备和系统提供强大的互操作性。
+
+OPC UA 和 MQTT 在功能上有一定程度的重叠，但它们的使用场景却截然不同：
+
+* OPC UA 是一种用于工业场景的通信协议，可使来自不同制造商的不同设备和系统使用标准化语言进行无缝通信。
+* MQTT 是一种物联网协议，专为基于互联网的传感器数据传输而设计，既能满足低带宽和不可靠的网络条件，又能有效处理连续的实时数据。它的订阅/发布机制为使用提供了极大的灵活性。
+
+在工业场景中，MQTT 擅长在分布式系统中发送信息，而 OPC UA 则侧重于提供互操作性。通过将两者结合，可以使用 OPC UA 对业务数据进行抽象和聚合，而 MQTT 则可以利用其强大的连接能力，以分布式方式实现无缝数据交换。
+
+## OPC UA over MQTT
+
+OPC 基金会在最新的 OPC UA 规范中提出的 Pub-Sub 模型允许使用 [MQTT Broker](https://www.emqx.com/zh/blog/the-ultimate-guide-to-mqtt-broker-comparison) 将数据变更推送给订阅者。
+
+![OPC UA over MQTT](https://assets.emqx.com/images/e3772239f0f42b2f622996c721d7e57f.png?imageMogr2/thumbnail/1520x)
+
+Pub-Sub 的安全性比客户端/服务器中的安全性要复杂一些，而且规范没有那么细致。在 MQTT 网络中，安全性基于 SSL/TLS，MQTT Broker 除了可以为传输启用 SSL/TLS，还可以定义应用程序级身份验证，原则上，对于每个可以加入网络的订阅端和发布端，这些安全模式要么全有，要么全无。新的 OPC UA 标准化仍在进行中，丰富的 OPC UA 信息模型如何以最佳方式映射到 MQTT 目前尚不明确。
 
 # opc ua 编程
 
