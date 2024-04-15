@@ -203,7 +203,7 @@ opc ua 定义了 8 种类型的节点
 
 > 可以监控服务器数据的变化
 
- ## OPC UA 的信息模型
+## OPC UA 的信息模型
 
 OPC UA 信息模型是节点的网络（Network of Node），或者称为结构化图（Graph），由节点（Node）和引用（Reference）组成，这种结构图称之为 OPC UA 的地址空间。地址空间以标准形式表示对象——地址空间中的模型元素被称为节点，对象及其组件在地址空间中表示为节点的集合，节点由属性描述并由引用相连接。OPC UA 建模其实就是建立节点以及节点间的引用。
 
@@ -395,7 +395,7 @@ func main() {
 	}
 	log.Printf("%#v", resp.Results[0].Value.Value())
 }
-'''
+```
 
 ## 向服务器写数据[#](https://www.cnblogs.com/kainhuck/p/14663473.html#3352642258)
 
@@ -448,7 +448,7 @@ func main() {
 	}
 	log.Printf("%v", resp.Results[0])
 }
-'''
+```
 
 ## 监听服务器数据变化[#](https://www.cnblogs.com/kainhuck/p/14663473.html#334506577)
 
@@ -536,11 +536,12 @@ func main() {
 	<-ctx.Done()
 	wg.Wait()
 }
-'''
+```
 
 # python opcua server demo
 
 ```python
+
 from threading import Thread
 import random
 import time
@@ -555,6 +556,7 @@ def set_temperature(parent, variant):
 def set_onoff(parent, variant):
     print(f"set_onoff {variant.Value}")
     temperature_thread.temperature.set_value(variant.Value)
+    
 '''
 
 # 这个类用于后台定时随机修改值
@@ -646,4 +648,4 @@ def set_onoff(parent, variant):
         temperature_thread.stop()
         server.stop()
 
-'''
+```

@@ -395,7 +395,7 @@ func main() {
 	}
 	log.Printf("%#v", resp.Results[0].Value.Value())
 }
-'''
+```
 
 ## 向服务器写数据[#](https://www.cnblogs.com/kainhuck/p/14663473.html#3352642258)
 
@@ -448,7 +448,7 @@ func main() {
 	}
 	log.Printf("%v", resp.Results[0])
 }
-'''
+```
 
 ## 监听服务器数据变化[#](https://www.cnblogs.com/kainhuck/p/14663473.html#334506577)
 
@@ -536,11 +536,12 @@ func main() {
 	<-ctx.Done()
 	wg.Wait()
 }
-'''
+```
 
 # python opcua server demo
 
 ```python
+
 from threading import Thread
 import random
 import time
@@ -555,6 +556,7 @@ def set_temperature(parent, variant):
 def set_onoff(parent, variant):
     print(f"set_onoff {variant.Value}")
     temperature_thread.temperature.set_value(variant.Value)
+    
 '''
 
 # 这个类用于后台定时随机修改值
@@ -646,4 +648,4 @@ def set_onoff(parent, variant):
         temperature_thread.stop()
         server.stop()
 
-'''
+```
