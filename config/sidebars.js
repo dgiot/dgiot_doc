@@ -15,7 +15,7 @@ const sidebars = {
         {
             type: 'doc',
             id:'news',
-            label: '最新动态',
+            label: '首页',
         },
         {
             type: 'category',
