@@ -15,6 +15,10 @@
     "message": "开发指南",
     "description": "The label for category developer_guid in sidebar docs"
   },
+  "sidebar.docs.category.classic_case": {
+    "message": "案例报价",
+    "description": "The label for category developer_guid in sidebar docs"
+  },
   "sidebar.docs.category.系统架构": {
     "message": "系统架构",
     "description": "The label for category 系统架构 in sidebar docs"

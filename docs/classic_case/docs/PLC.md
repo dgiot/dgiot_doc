@@ -1,6 +1,6 @@
 ---
 title: PLC典型案例
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 ## **一、智慧工厂产线监测**

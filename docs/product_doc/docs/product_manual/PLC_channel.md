@@ -2,7 +2,7 @@
 title: PLC采集通道
 sidebar_position: 2
 ---
-####  PLC是目前工业领域使用最大的数字预算操作电子系统，常用于大型工业设备的自动化逻辑控制。常见的PLC有西门子、三菱、汇川、施耐德、欧姆龙、台达等等。一下是DGIOT已适配的PLC型号。
+####  PLC是目前工业领域使用最大的数字预算操作电子系统，常用于大型工业设备的自动化逻辑控制。常见的PLC有西门子、三菱、汇川、施耐德、欧姆龙、台达等等。以下是DGIOT已适配的PLC型号。
 <img width="100%" src="https://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/shuwa_tech/zh/blog/study/PLC/PLC.png" />
 
 ## **Dgiot-PLC优势**

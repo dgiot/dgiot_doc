@@ -12,7 +12,7 @@ sidebar_position: 1
 
 <img width="100%" src="https://www.dgiotcloud.cn/wp-content/uploads/2022081911184451.png" />
 
-## **产品添加通道后需对所用到的通道重启**
+
 
 4.通道日志查看
 
@@ -62,6 +62,10 @@ sidebar_position: 1
 <img width="100%" src="https://www.dgiotcloud.cn/wp-content/uploads/2022081911210140.png" />
 
 <img width="100%" src="https://www.dgiotcloud.cn/wp-content/uploads/2022081911210523.png" />
+
+## **产品添加通道后需对所用到的通道重启(启用/禁用)**
+## **产品添加通道后需对所用到的通道重启(启用/禁用)**
+## **产品添加通道后需对所用到的通道重启(启用/禁用)**
 
 ### 3.SHT20传感器设备连接的DTU注册成功
 
