@@ -4,14 +4,14 @@ sidebar_position: 1
 ---
 # DGIOT通道功能服务手册
 
-| 通道名称         | 产品手册                                                                    | 用户手册                                                                 | 典型案例                                              | 演示环境 | 商务报价                                        |
-|--------------|-------------------------------------------------------------------------|----------------------------------------------------------------------|---------------------------------------------------|------|---------------------------------------------|
+| 通道名称         | 产品手册的                                                                                                  | 用户手册                                                                 | 典型案例                                              | 演示环境 | 商务报价                                        |
+|--------------|--------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|---------------------------------------------------|------|---------------------------------------------|
 | Mosbus通道     | <a href="https://doc.dgiotcloud.cn/docs/product_doc/docs/product_manual/modbus_channel">Modbus产品手册</a> | <a href="https://doc.dgiotcloud.cn/docs/user_manual/docs/user_manual/modbus_channel">Modbus用户手册</a> | <a href="https://doc.dgiotcloud.cn/docs/classic_case/docs/modbus">Modbus典型案例</a> |      | <a href="https://doc.dgiotcloud.cn/docs/classic_case/docs/">报价咨询</a> |
 | PLC采集通道     | <a href="https://doc.dgiotcloud.cn/docs/product_doc/docs/product_manual/PLC_channel">PLC产品手册</a>       | <a href="https://doc.dgiotcloud.cn/docs/user_manual/docs/user_manual/plc_channel">PLC用户手册</a>       | <a href="https://doc.dgiotcloud.cn/docs/classic_case/docs/PLC">PLC典型案例</a>       |      |                                             |
-| OPC-UA通道     |                                                                         |                                                                      |                                                   |      |                                             |
-| OPC-DA通道     |                                                                         |                                                                      |                                                   |      |
-| Modbus-TCP通道 |                                                                         |                                                                      |                                                   |      |
-| Simence S7通道 |                                                                         |                                                                      |                                                   |      |
+| OPC-UA通道     |                                                                                                        |                                                                      |                                                   |      |                                             |
+| OPC-DA通道     |                                                                                                        |                                                                      |                                                   |      |
+| Modbus-TCP通道 |                                                                                                        |                                                                      |                                                   |      |
+| Simence S7通道 |                                                                                                        |                                                                      |                                                   |      |
 
 
 ## 产品版本说明
