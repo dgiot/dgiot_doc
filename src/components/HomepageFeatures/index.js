@@ -44,7 +44,7 @@ function HomepageHeader() {
 				},
 				{
 					"text": "智慧园区",
-					"cover": "https://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_doc/index/Community.png",
+					"cover": "http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/logo/parse.png",
 					"href": "/docs/user_manual/docs/equipment_operational/equipment_leasing"
 				},
 				{

@@ -1,6 +1,7 @@
 ---
 title: 产品说明
 sidebar_position: 1
+sidebar_class_name: green
 ---
 
 ## 版本说明

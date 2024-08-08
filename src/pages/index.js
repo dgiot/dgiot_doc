@@ -26,7 +26,7 @@ function HomepageHeader() {
                     </span>
                             <p></p>
                             <p className="hero__subtitle">
-                            <a  href="https://doc.dgiotcloud.cn/docs/product_doc/docs/deployment_details/">
+                            <a  href="/docs/product_doc/docs/deployment_details/">
                               <button className={styles.buttons1}>进入文档 →</button>
                             </a>
                             <a  href="https://prod.dgiotcloud.cn/#/login">
