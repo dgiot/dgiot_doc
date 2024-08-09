@@ -1,48 +1,75 @@
 ---
 title: 产品说明
 sidebar_position: 1
-sidebar_class_name: green
 ---
+# DGIOT开源物联网平台
+
+## 产品简介
+DGIOT是国内首款轻量级开源工业物联网平台，我们致力于提供五类物联网解决方案：
++ 国企/研究院：平台代码开源，无版权产权困扰，国产无“卡脖”之忧
++ 系统集成商：通用设备海量接入、定制设备二次开发、6分钟一键式私有化快速部署，低成本（降90%成本）
++ 工业设备制造商：海量设备上线运维，不受公有云限制，低成本，短周期自建平台，私有化部署，数据安全
++ 开源平台开发者：一键式开发环境，集成和兼容各种最优开源工具，快速承接物联网项目
++ 垂直领域物联网平台：快速部署私有化平台，千万级承载，运营级底座，全开放扩展
+
+## 核心特色
+
++ 完全开源：前后端完全开源，无收费商业版
++ 快速部署：6分钟私有化一键式部署，快速拥有自己的物联网平台
++ 专业可靠：千万级设备接入与管理，电信级稳定性
++ 兼容并包：兼容工业领域多行业的常见协议类型
++ 全流程低代码：物模型-规则引擎-数据通道-组态页面全流程可视化低代码开发
+
+## 产品架构
+![dgiot_arch.png](https://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/shuwa_tech/zh/dgiot_arch.png)
 
 ## 版本说明
 
-| 版本类型  | 社区版                 | 企业版                 | 旗舰版                 | * 信创版               |
-|-------|---------------------|---------------------|---------------------|---------------------|
-| 部署费用  | 免费                  | 5W+                 | 30W+                | 面议                  |
-| 服务器系统 | Centos7.6/7.9       |Centos7.6/7.9 | Centos7.6/7.9       | 银河麒麟Kylin           |
-| 设备托管  | 支持                  | 支持                  | 支持                  | 支持                  | 
-| API接口 | 支持                  | 支持                  | 支持                  | 支持                  |  
-| 组件模块  | 支持                  | 支持                  | 支持                  | 支持                  |  
-| 场景适配  | 多场景                 | 多场景+                | 全场景+                | 全场景+                |    
-| 告警通知  | 微信小程序、邮箱、短信         | 微信小程序、邮箱、短信         | 微信小程序、邮箱、短信         | 微信小程序、邮箱、短信         |  
-| 运维业务  | 规则引擎联动工单系统          | 规则引擎联动工单系统          | 规则引擎联动工单系统          | 规则引擎联动工单系统          |  
-| 移动运维  | 开源小程序               | 微信小程序+调试二开+适配API          | 微信小程序+调试二开+适配API    | 微信小程序+调试二开+适配API    |
-| 标准协议  | DLT645、Modbus、Dlink | DLT645、Modbus、Dlink | DLT645、Modbus、Dlink | DLT645、Modbus、Dlink |
-| 定制协议  | 自行开发                | 定制化协议开发 | 定制化协议开发             | 定制化协议开发             |
-| 部署形式  | 一键部署                | 服务器部署               | 服务器集群部署，私有化全域运维中心   | 服务器集群部署，私有化全域运维中心   |
-| 承载能力  | 50-100设备长连接         | 1K-100K设备长连接        | 100K-3000W设备长连接     | 100K-3000W设备长连接     |
-| 子系统对接 | -                   | 子系统管理               | 子系统管理               | 子系统管理               |
-| 服务响应  | -                   | 5*12专线响应            | 7*24专线响应            | 7*24专线响应            | 
-| 项目交付  | -                   | 项目源码+产品手册           | 项目源码+产品手册           | 项目源码+产品手册           | 
-| 数据消费  | -                   | 小程序、业务平台            | 数字孪生、城市大脑、公安系统      | 数字孪生、城市大脑、公安系统      | 
-| 管理后台  | -                   | -                   | 全新前端+新运维功能          | 全新前端+新运维功能          |  
-| 稳定性   | -                   | -                   | 电信级稳定性              | 电信级稳定性              | 
-| 模拟压测  | -                   | -                   | 全业务场景模拟压测           | 全业务场景模拟压测           | 
+| 功能               | 社区版                                              | 企业版                                                   | 旗舰版                                                    | 
+|------------------|--------------------------------------------------|-------------------------------------------------------|--------------------------------------------------------|
+| 开放源代码            | ✅                                                | ✅                                                     | ✅                                                      |
+| 操作系统             | Centos7.6/7.9                                    | Centos7.6/7.9                                         | Centos7.6/7.9银河麒麟Kylin                            | 
+| 部署方式             | 云服务器                                             | 云服务器工控机                                          | 云服务器工控机刀片服务器                                 |
+| 设备管理,设备接入        | ✅                                                | ✅                                                     | ✅                                                      |
+| 多消息协议支持          | ✅                                                | ✅                                                     | ✅                                                      |
+| 规则引擎-设备告警        | ✅                                                | ✅                                                     | ✅                                                      |
+| 规则引擎-数据转发        | ✅                                                | ✅                                                     | ✅                                                      |
+| 规则引擎-可视化设计器      | ✅                                                | ✅                                                     |
+| 系统监控,数据统计        | ✅                                                | ✅                                                     | ✅                                                      |
+| 数据权限控制           | ✅                                                | ✅                                                     | ✅                                                      |
+| 低代码大屏            | 1.0版本                                            | 2.0版本                                                 | 2.0版本                                                  |
+| OpenAPI/OAuth2认证 | ✅                                                | ✅                                                     | ✅                                                      |
+| 通道管理             | ✅                                                | ✅                                                     | ✅                                                      |
+| 通信协议             | MQTT(TLS)<br/>TCP(TLS)<br/>Http<br/>WebSocket<br/>UDP | MQTT(TLS)<br/>TCP(TLS)<br/>Http<br/>WebSocket<br/>UDP | MQTT(TLS)<br/>TCP(TLS)<br/>Http<br/>WebSocket<br/>UDP  |
+| 业务协议             | DLT645<br/>MODBUS RTU<br/>DLINK                       | DLT645<br/>MODBUS RTU<br/>DLINK                       | DLT645<br/>MODBUS RTU<br/>DLINK                        |
+| 工业协议             | ⭕                                                | MODBUS TCP<br/>PLC<br/>OPC                            | MODBUS TCP<br/>PLC<br/>OPC                             |
+| 微信企业消息           | ⭕                                                | ✅                                                     | ✅                                                      |
+| 邮件消息通知           | ⭕                                                | ✅                                                     | ✅                                                      |
+| 短信通知             | ⭕                                                | ✅                                                     | ✅                                                      |
+| QQ群技术支持          | ⭕                                                | ✅                                                     | ✅                                                      |
+| 一对一技术支持          | ⭕                                                | ✅                                                     | ✅                                                      |
+| 定制开发             | ⭕                                                | ✅                                                     | ✅                                                      |
+| 服务响应             | ⭕                                                | 5*12专线响应                                              | 7*24专线响应                                               | 
+| 项目交付             | ⭕                                                | 项目源码 产品手册                                         | 项目源码 产品手册                                          | 
+| 数据消费             | ⭕                                                | 小程序 业务平台                                          | 数字孪生 城市大脑 公安系统                                 | 
+| 承载能力             | 50-100长连接                                        | 1K-100K长连接                                            | 100K-3000W长连                                           |
+| 模拟压测             | ⭕                                                | ⭕                                                     | 全业务场景模拟压测                                              |
+| 国产化适配            | ⭕                                                | ⭕                                                     | 信创适配等保认证                                          |
+| 定价               | 免费                                               | 加QQ群`346566935`联系商务                              | 加QQ群`346566935`联系商务                               |
 
-+ GitHub地址：https://www.github.com/dgiot/
-
-+ Gitee地址：https://gitee.com/dgiiot/
-
-## 更多报价消息和使用问题欢迎扫描下方二维码添加小迪哦。
+**更多报价消息和使用问题欢迎扫描下方二维码添加小迪哦。**
 
 <img width="20%" src="https://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/shuwa_tech/zh/news/%E5%B0%8F%E8%BF%AA%E5%BE%AE%E4%BF%A1.jpg" />
 
++ GitHub地址：https://www.github.com/dgiot/
++ Gitee地址：https://gitee.com/dgiiot/
 
-| 通道名称         | 产品手册                                                                    | 用户手册                                                                                                | 典型案例                                              | 演示环境 | 商务报价                                        |
-|--------------|-------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|---------------------------------------------------|------|---------------------------------------------|
-| Mosbus通道     | <a href="https://doc.dgiotcloud.cn/docs/product_doc/docs/product_manual/modbus_channel">Modbus产品手册</a> | <a href="https://doc.dgiotcloud.cn/docs/user_manual/docs/user_manual/modbus_channel">Modbus用户手册</a> | <a href="https://doc.dgiotcloud.cn/docs/classic_case/docs/modbus">Modbus典型案例</a> |      | <a href="https://doc.dgiotcloud.cn/docs/classic_case/docs/">报价咨询</a> |
-| PLC采集通道     | <a href="https://doc.dgiotcloud.cn/docs/product_doc/docs/product_manual/PLC_channel">PLC产品手册</a>       | <a href="https://doc.dgiotcloud.cn/docs/user_manual/docs/user_manual/plc_channel">PLC用户手册</a>       | <a href="https://doc.dgiotcloud.cn/docs/classic_case/docs/PLC">PLC典型案例</a>       |      |                                             |
-| OPC-UA通道     |                                                                         | <a href="https://doc.dgiotcloud.cn/docs/user_manual/docs/user_manual/opc_ua">OPC_UA用户手册</a>         |                                                   |      |                                             |
-| OPC-DA通道     |                                                                         | <a href="https://doc.dgiotcloud.cn/docs/user_manual/docs/user_manual/opc_da">OPC-DA用户手册</a>         |                                                   |      |
-| Modbus-TCP通道 |                                                                         | <a href="https://doc.dgiotcloud.cn/docs/user_manual/docs/user_manual/modbus_tcp">Modbus_TCP用户手册</a> |                                                   |      |
-| Simence S7通道 |                                                                         |                                                                                                     |                                                   |      |
+## 场景应用
+| 通道名称         | 产品手册       | 用户手册           | 典型案例       | 演示环境 | 商务报价 |
+|--------------|------------|----------------|------------|------|------|
+| Mosbus通道     | Modbus产品手册 | Modbus用户手册     | Modbus典型案例 |      | 报价咨询 |
+| PLC采集通道      | PLC产品手册    | PLC用户手册        | PLC典型案例    |      |      |
+| OPC-UA通道     |            | OPC_UA用户手册     |            |      |      |
+| OPC-DA通道     |            | OPC-DA用户手册     |            |      |
+| Modbus-TCP通道 |            | Modbus_TCP用户手册 |            |      |
+| Simence S7通道 |            |                |            |      |
