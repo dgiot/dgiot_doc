@@ -15,11 +15,14 @@ sidebar_position: 3
 由于一键式部署要求纯操作系统环境，无需安装其他例如Nginx/Tengine+MySQL等软件，否则易和一键式部署冲突，如果已有相关应用，请联系微信群技术客服单独处理
 
 支付完成之后,会自动生成云服务器实例
+
 ![aliyun2.png](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/shuwa_tech/zh/wiki/aliyun/aliyun2.png)
+
 点击云服务器实例，选择远程登录入口，**如果安装时忘记设置密码可以在下面页面重置一下密码** 
+
 ![aliyun3.png](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/shuwa_tech/zh/wiki/aliyun/aliyun3.png)
 
-#### 2.一键部署脚本获取路径： https://doc.dgiotcloud.cn/docs/product_doc/ 进入dgiot开源物联网平台
+#### 2.一键部署脚本获取路径： [脚本获取](https://doc.dgiotcloud.cn/docs/product_doc/docs/deployment_details/system_deployment)
 
 #### 3.页面下滑至一键部署处，复制如下代码
 ```
@@ -28,7 +31,7 @@ wget -qO dgiot_install.sh https://gitee.com/dgiiot/dgiot/raw/master/dgiot_instal
 -d （域名  可选配置，正式商用建议配置域名，默认使用云服务器公网IP地址访问）
 -s （版本号 可选配置，指定版本号 例：-s dgiot_156，默认是最新版本）
 
-[版本列表链接](https://doc.dgiotcloud.cn/docs/product_doc/)
+[版本列表链接](https://doc.dgiotcloud.cn/docs/product_doc/docs/deployment_details/version_releases)
 
 #### 4.登录阿里云服务器，进入页面，将复制的代码粘贴后回车，等待脚本安装，此时间大约需要30分钟，请耐心等待
 ![aliyun4.png](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/shuwa_tech/zh/wiki/aliyun/aliyun4.png)

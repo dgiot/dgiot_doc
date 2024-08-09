@@ -27,7 +27,7 @@ sidebar_position: 7
 ![yidongyun4.png](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_doc/developer_guid/ecloud/4.png)
 
 
-#### 2.一键部署脚本获取路径： https://doc.dgiotcloud.cn/docs/product_doc/ 进入dgiot开源物联网平台
+#### 2.一键部署脚本获取路径： [脚本获取](https://doc.dgiotcloud.cn/docs/product_doc/docs/deployment_details/system_deployment)
 
 #### 3.页面下滑至一键部署处，复制如下代码
 ```
@@ -37,7 +37,7 @@ wget -qO dgiot_install.sh https://gitee.com/dgiiot/dgiot/raw/master/dgiot_instal
 
 -s （版本号 可选配置，指定版本号 例：-s dgiot_156，默认是最新版本）
 
-[版本列表链接](https://doc.dgiotcloud.cn/docs/product_doc/)
+[版本列表链接](https://doc.dgiotcloud.cn/docs/product_doc/docs/deployment_details/version_releases)
 
 #### 4.登录移动云服务器，进入页面(或者远程工具登录)，将复制的代码粘贴后回车，等待脚本安装，此时间大约需要30分钟，请耐心等待
 ![yidongyun5.png](http://dgiot-1253666439.cos.ap-shanghai-fsi.myqcloud.com/dgiot_doc/developer_guid/ecloud/5.png)

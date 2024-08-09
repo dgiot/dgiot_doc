@@ -8,7 +8,7 @@
 const config = {
     title: 'DGIOT让万物互联变得更简单',
     tagline: 'DGIOT帮助开发者用简单的几行代码可以快速对接子系统实现数据汇聚，也可以零代码实现常见设备接入',
-    url: 'https://www.iotn2n.com',
+    url: 'https://www.dgiotcloud.cn',
     baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',

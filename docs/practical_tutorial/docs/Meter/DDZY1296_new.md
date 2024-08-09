@@ -1,12 +1,15 @@
 ---
-title: DDZY1296电表接入教程(适用于v4.7.0之后)
+title: DDZY285电表接入教程新
 sidebar_position: 6
 ---
 
 <iframe height="600" width="800" src="//player.bilibili.com/player.html?aid=461717304&bvid=BV1eL411H7FT&cid=368810202&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
+## 该教程适用于v4.7.0之后
+**注：**设备接入操作仅平台操作存在差异，其他教程的网关配置可做参考。
+
 **[小 迪 导读]**：
-本教程首先通过全链路虚拟环境讲述如何用DG-IoT开源工业物联网平台完成电力集抄项目,在掌握基础概念和业务流程之后，可以尝试接入虚拟电表或者真实电表。
+本教程首先通过全链路虚拟环境讲述如何用DG-IoT开源工业物联网平台完成电力集抄项目,在                                                                                                                    掌握基础概念和业务流程之后，可以尝试接入虚拟电表或者真实电表。
 [点击了解](https://www.dgiotcloud.cn/blog/technical/dgiot%e7%94%b5%e8%a1%a8%e6%8e%a5%e5%85%a5%e5%ae%9e%e6%88%98%e6%95%99%e7%a8%8b/)虚拟电表教程
 
   系统需要使用两个设备以及若干导线：

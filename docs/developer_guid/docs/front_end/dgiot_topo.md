@@ -22,21 +22,29 @@ sidebar_position: 1
 
 ## 视图节点
 
-|NodeType |NodeId|注释|组件类型|
-|:----    |:-------  |--- | --- |
-|counter |product_counter |产品数量| mqtt |
-|counter |device_counter |设备数量| mqtt |
-|counter |device_online_counter |在线设备数| mqtt |
-|counter |device_offline_counter |离线设备数| mqtt |
-|counter |device_poweron_counter |开机设备数| mqtt |
-|counter |device_poweroff_counter |关机设备数| mqtt |
-|pie |device_poweron_poweroff |设备开关机饼图| mqtt |
-|list |warning_list |告警列表| mqtt |
-|list |device_list  |设备列表| mqtt |
-|list |workorder_list  |工单列表| api |
+|NodeType |NodeId|注释|数据类型|组件类型| 图片地址|
+|:----    |:-------  |--- | --- | --- | --- |
+|counter |product_counter |产品数量| mqtt | vuecomponent| -|
+|counter |device_counter |设备数量| mqtt | vuecomponent| - |
+|counter |device_online_counter |在线设备数| mqtt | vuecomponent| -|
+|counter |device_offline_counter |离线设备数| mqtt | vuecomponent| -|
+|counter |device_poweron_counter |开机设备数| mqtt | vuecomponent| -|
+|counter |device_poweroff_counter |关机设备数| mqtt | vuecomponent| -|
+|pie |device_poweron_poweroff |设备开关机饼图| mqtt | vuecomponent| /dgiot_file/topo/png/turnonoffpie.png|
+|list |warning_list |告警列表| mqtt | vuecomponent| /dgiot_file/topo/png/warninglist.png|
+|list |device_list  |设备列表| mqtt | vuecomponent| /dgiot_file/topo/png/devicelist.png |
+|list |workorder_list  |工单列表| api | vuecomponent| /dgiot_file/topo/png/workorderlist.png |
+|liveboard |videoalive  |视频监控| api | vuecomponent| /dgiot_file/topo/png/videolive.png |
+|map |baidumap  |百度地图| api | vuecomponent| /dgiot_file/topo/png/baidumap.png |
+|count |all_countvalue  |基本数据统计卡片组| api | vuecomponent| /dgiot_file/topo/png/countvalue.png |
+|count |product_count  |产品数量| api | vuecomponent| /dgiot_file/topo/png/product_count.png |
+|count |device_count  |设备数量| api | vuecomponent| /dgiot_file/topo/png/device_count.png |
+|count |warning_count  |告警数量| api | vuecomponent| /dgiot_file/topo/png/warning_count.png |
+|count |order_count  |工单数量| api | vuecomponent| /dgiot_file/topo/png/order_count.png |
+|amisview | ${ViewId}  |低代码视图组件| api | amiscomponent| /dgiot_file/topo/png/amiscomponent.png |
 
 ### counter节点
-  counter节点是对dgiot某一类数据的统计值
+  counter节点是对dgiot某一类数据的统计值，该数值通过mqtt 连接实时获取
 - topic
   
   $dg/user/topo/${sessionToken}/counter/${NodeId}/report
@@ -53,7 +61,7 @@ sidebar_position: 1
 
 ```json
   {
-  "lable":"产品数量",
+  "label":"产品数量",
   "value":10
   }
 ```
@@ -164,3 +172,104 @@ sidebar_position: 1
       ]
 }
 ```
+### count节点
+  count节点是对dgiot某一类数据的统计值,该数值通过api 接口请求获取
+- 注意事项: 该视图设置时跳转路径为配置的低代码路由路径
+  - 例如： 设备管理菜单管理路由配置路径为 /amis/View/5das4ffs44,即配置跳转路径就为 /amis/View/5das4ffs44
+- 数据样例
+```json
+// 样例1
+ {
+        name: "产品数量", //名称
+        number: 20,  //总数
+        finename: "正常", 
+        finenumber: 20,
+        badname: "停用",
+        badnumber: 0,
+ }
+
+ //样例2
+ {
+        name: "设备数量", //名称
+        number: 15,  //总数
+        finename: "在线", 
+        finenumber: 10,
+        badname: "离线",
+        badnumber: 5,
+ }
+
+````
+### amisview节点
+     amisview节点是首页大屏中通过请求低代码页面进行渲染的节点
+  - 注意事项: 用户需设置该节点的位置 大小和对应绑定的低代码表单   
+### map节点
+    map节点是首页大屏中用来展示设备地图的节点
+  - 注意事项: 用户需设置该节点的位置,大小
+## 低代码实时数据监听
+
+### crud 设备列表管理设计
+- topic $dg/user/devicestate/${deviceid}/report
+
+||设备名称 |设备地址|安装位置|在线离线情况|
+|---|:----    |:-------  |--- | --- |
+|className|dgiotname |dgiotdevaddr|dgiotaddress|dgiotstatus|
+
+```json
+"payloadString":"{\"0c147bbf22\":{\"address\":\"\",\"isEnable\":true,\"lastOnlineTime\":1668076442,\"location\":{\"__type\":\"GeoPoint\",\"latitude\":30.373198,\"longitude\":120.076845},\"status\":\"ONLINE\"}}"
+
+```
+###  低代码配置规范说明
+  - 低代码中设备管理的 设备名称 设备地址 安装位置 状态 必须以此为模板以便于能够进行一个实时数据的更新
+   - ```json
+    {
+  "type": "text",
+  "name": "objectId",
+  "label": "设备Id",
+  "className": "dgiotojectId"
+   },
+   {
+  "type": "text",
+  "name": "name",
+  "label": "设备名称",
+  "className": "dgiotname"
+   },
+   {
+  "type": "text",
+  "name": "devaddr",
+  "label": "设备地址",
+  "className": "dgiotdevaddr"
+   },
+   {
+  "type": "text",
+  "name": "address",
+  "label": "安装位置",
+  "className": "dgiotaddress"
+  },
+  {
+  "type": "mapping",
+  "map": {
+    "ONLINE": "<span class='label label-success'>在线</span>",
+    "OFFLINE": "<span class='label label-danger'>离线</span>"
+  },
+  "name": "status",
+  "label": "状态",
+  "className": "dgiotstatus"
+  }
+
+   ```
+
+```html
+<!-- 前端变化参考 -->
+ <span class='label label-success'>在线</span>
+ <span class='label label-danger'>离线</span>
+ ```
+前端数据发送参考
+```javascript
+Vue.prototype.$dgiotBus.$emit('$dg/user/devicestate',{
+  "payloadString":"{\"0c147bbf22\":{\"address\":\"\",\"isEnable\":true,\"lastOnlineTime\":1668076442,\"location\":{\"__type\":\"GeoPoint\",\"latitude\":30.373198,\"longitude\":120.076845},\"status\":\"ONLINE\"}}"
+})
+
+```
+
+
+

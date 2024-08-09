@@ -8,7 +8,7 @@ sidebar_position: 7
   |  ----  | ----  |
   | 源路径  | keypath |
   | 源host  | 127.0.0.1:5080 |
-  | 目标host  | www.iotn2n.com |
+  | 目标host  | www.dgiotcloud.cn |
   | 协议  | http |
   | x-forwarded-for  | true |
  配置词典内容如下：
@@ -17,7 +17,7 @@ sidebar_position: 7
 {
 "key":"keypath",
 "data":{
-  "host": "www.iotn2n.com",
+  "host": "www.dgiotcloud.cn",
   "protocol": "http",
   "x-forwarded-for": true
 }
@@ -40,7 +40,7 @@ htlm->tokens功能
 ```
 
 ```
- shuwa_html:find(WordPreview, {<<"img">>, {<<"class">>, <<"my-photo">>}}, <<"data-src">>)
+ dgiot_html:find(WordPreview, {<<"img">>, {<<"class">>, <<"my-photo">>}}, <<"data-src">>)
 ```
 
 # 网页代理

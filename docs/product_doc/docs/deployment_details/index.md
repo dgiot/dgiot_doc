@@ -4,6 +4,7 @@ sidebar_position: 1
 ---
 
 import DgiotVersion from '@site/src/components/dgiotVersion';
+import DgiotVersionApp from '@site/src/components/dgiotVersionApp';
 
 ## 平台体验
 
@@ -75,6 +76,6 @@ dgiot也将会提供开发工具、最新代码。
 # 安卓app
 
 + 体验app
-  http://d.firim.pro/qpnw?release_id=62e293c30d81cc3dad62be60
+  <DgiotVersionApp color="#25c2a0" title='输入您的电子邮箱以接收下载链接'>点击获取</DgiotVersionApp>
  
     

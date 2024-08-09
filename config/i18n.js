@@ -1,11 +1,12 @@
 module.exports = {
-    defaultLocale: 'zh-cn',
+     defaultLocale: 'zh-cn',
      locales: ['en', 'zh-cn'],
-//     locales: ['zh-cn'],
-    /*localeConfigs: {
+     localeConfigs: {
         "zh-cn": {
             htmlLang: '中文',
         },
-    },*/
-
+        en: {
+                htmlLang: 'en-GB',
+        },
+    },
 }

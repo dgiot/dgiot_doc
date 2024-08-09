@@ -1,5 +1,5 @@
 ---
-title: 一键部署
+title: 系统部署
 sidebar_position: 1
 ---
 
@@ -9,90 +9,6 @@ import DgiotVersionApp from '@site/src/components/dgiotVersionApp';
 ## 平台体验
 
 迪格云(dgiot)体验平台:prod.dgiotcloud.cn
-
-<table >
-    <tr class="td3"  style={{border : 'none',background : '#fff'}}>
-        <td class="a2"> <a href="https://prod.dgiotcloud.cn/">智慧园区</a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/">智慧园区</a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/">智慧厕所</a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/">智慧水务</a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-    </tr>
-    <tr class="td3"  style={{border : 'none',background : '#fff'}}>
-        <td class="a2"> <a href="https://prod.dgiotcloud.cn/">智慧能源</a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/">智慧能耗管理系统</a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        </tr>
-    <tr class="td3"  style={{border : 'none',background : '#fff'}}>
-        <td class="a2"> <a href="https://prod.dgiotcloud.cn/">智能制造</a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/">数字工厂MES系统</a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        </tr>
-    <tr class="td3"  style={{border : 'none',background : '#fff'}}>
-        <td class="a2"> <a href="https://prod.dgiotcloud.cn/">智慧农业</a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/">智慧农业</a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        </tr>
-    <tr class="td3"  style={{border : 'none',background : '#fff'}}>
-        <td class="a2"> <a href="https://prod.dgiotcloud.cn/">环保监测</a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/">异味污染监测系统</a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        </tr>    
-    <tr class="td3"  style={{border : 'none',background : '#fff'}}>
-        <td class="a2"> <a href="https://prod.dgiotcloud.cn/">设备运维</a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/">工业设备租赁一体化运维平台</a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/">物联网卡管理</a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        </tr>    
-    <tr class="td3"  style={{border : 'none',background : '#fff'}}>
-        <td class="a2"> <a href="https://prod.dgiotcloud.cn/">智慧办公</a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/">米家智能</a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/">智慧办公</a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        </tr>    
-    <tr class="td3"  style={{border : 'none',background : '#fff'}}>
-        <td class="a2"> <a href="https://prod.dgiotcloud.cn/">云检测</a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/">水泵远程质量检测与质量对比系统</a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        </tr>    
-    <tr class="td3"  style={{border : 'none',background : '#fff'}}>
-        <td class="a2"> <a href="https://prod.dgiotcloud.cn/">3D数据可视化</a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/">3D数据可视化展示平台</a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        <td class="a1"> <a href="https://prod.dgiotcloud.cn/"></a></td>
-        </tr>           
-</table>
 
 体验账号无需填写账号密码。
 
