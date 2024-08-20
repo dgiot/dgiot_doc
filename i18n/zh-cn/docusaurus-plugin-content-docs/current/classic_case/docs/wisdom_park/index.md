@@ -1,9 +1,7 @@
 ---
 title: 智慧园区
-sidebar_position: 4
-
+sidebar_position: 1
 ---
-1
 #  智慧园区数字驾驶舱
 
 ## 智慧园区痛点分析
